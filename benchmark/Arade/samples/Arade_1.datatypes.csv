@@ -1,0 +1,1 @@
+varchar(3) NOT NULL|varchar(5) NOT NULL|timestamp NOT NULL|decimal(8, 4) NOT NULL|decimal(8, 6) NOT NULL|varchar(1)|varchar(1)|decimal(9, 6) NOT NULL|decimal(9, 6) NOT NULL|smallint NOT NULL|smallint NOT NULL
