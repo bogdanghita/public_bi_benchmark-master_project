@@ -1,5 +1,3 @@
-benchmark/*/tables-vectorwise
-
 benchmark/*/load-monetdb
 benchmark/*/load-vectorwise
 
