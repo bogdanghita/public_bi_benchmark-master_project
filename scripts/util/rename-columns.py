@@ -18,24 +18,30 @@ def mkdir_p(dir_path):
 
 
 def rename_columns(src_table_path, dst_table_path):
-	regex_col = re.compile(r'^(.*?)"(.*?)" (.*?),?$')
+	regex_col = re.compile(r'^(.*?)"(.*?)" (.*?)(,?)$')
 
 	with open(src_table_path, 'r') as f_s, open(dst_table_path, 'w') as f_o:
 		lines = f_s.readlines()
 
 		f_o.write(lines[0])
 
-		cols = list(map(lambda c: c, lines[1:-1]))
+		max_col_id_len = 0
+		cols, cols_new = lines[1:-1], {}
 		for col_id, c in enumerate(cols):
 			m = regex_col.match(c)
 			if not m:
 				raise Exception("Unable to parse schema file")
-			prefix, col_name, datatype = m.group(1), m.group(2), m.group(3)
-			col_name_new = "col_{}".format(col_id)
-			line_new = "{}\"{}\" {}".format(prefix, col_name_new, datatype)
-			if c.strip().endswith(","):
-				line_new += ","
-			f_o.write(line_new + "\n")
+			prefix, col_name, datatype, suffix = m.group(1), m.group(2), m.group(3), m.group(4)
+			cols_new[col_id] = (prefix, col_name, datatype, suffix)
+			col_id_len = len(str(col_id))
+			if col_id_len > max_col_id_len:
+				max_col_id_len = col_id_len
+
+		for col_id, c in cols_new.items():
+			(prefix, col_name, datatype, suffix) = c
+			col_name_format_string = "{}\"col_{:0" + str(max_col_id_len) + "d}\" {}{}\n"
+			line_new = col_name_format_string.format(prefix, col_id, datatype, suffix)
+			f_o.write(line_new)
 
 		f_o.write(lines[-1])
 
