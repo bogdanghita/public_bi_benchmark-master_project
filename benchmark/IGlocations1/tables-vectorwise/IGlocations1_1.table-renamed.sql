@@ -1,0 +1,20 @@
+CREATE TABLE "IGlocations1_1"(
+"col_0" integer,
+"col_1" integer NOT NULL,
+"col_2" integer NOT NULL,
+"col_3" varchar(57) NOT NULL,
+"col_4" smallint NOT NULL,
+"col_5" integer NOT NULL,
+"col_6" varchar(1) NOT NULL,
+"col_7" smallint NOT NULL,
+"col_8" integer NOT NULL,
+"col_9" integer NOT NULL,
+"col_10" integer NOT NULL,
+"col_11" integer NOT NULL,
+"col_12" integer NOT NULL,
+"col_13" integer NOT NULL,
+"col_14" smallint NOT NULL,
+"col_15" smallint NOT NULL,
+"col_16" smallint NOT NULL,
+"col_17" varchar(20) NOT NULL
+);

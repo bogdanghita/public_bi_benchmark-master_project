@@ -1,0 +1,22 @@
+CREATE TABLE "IGlocations2_2"(
+  "col_0" smallint,
+  "col_1" varchar(3688) NOT NULL,
+  "col_2" varchar(35) NOT NULL,
+  "col_3" varchar(2) NOT NULL,
+  "col_4" timestamp NOT NULL,
+  "col_5" integer NOT NULL,
+  "col_6" decimal(10, 8) NOT NULL,
+  "col_7" integer NOT NULL,
+  "col_8" varchar(35) NOT NULL,
+  "col_9" decimal(11, 8) NOT NULL,
+  "col_10" varchar(5) NOT NULL,
+  "col_11" varchar(153) NOT NULL,
+  "col_12" varchar(16) NOT NULL,
+  "col_13" varchar(16) NOT NULL,
+  "col_14" varchar(30) NOT NULL,
+  "col_15" decimal(5, 2) NOT NULL,
+  "col_16" varchar(8) NOT NULL,
+  "col_17" varchar(5),
+  "col_18" varchar(5) NOT NULL,
+  "col_19" decimal(4, 2) NOT NULL
+);
