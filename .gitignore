@@ -1,3 +1,5 @@
+*__pycache__
+
 benchmark/*/load-monetdb
 benchmark/*/load-vectorwise
 
@@ -7,3 +9,7 @@ benchmark/*/queries-monetdb/*.ret
 benchmark/*/queries-vectorwise/*.out
 benchmark/*/queries-vectorwise/*.err
 benchmark/*/queries-vectorwise/*.ret
+
+benchmark/Test
+
+scripts/analysis/schema_analysis/output
