@@ -21,6 +21,11 @@ class AnalysisManager(object):
 			"tables": {},
 			"agg": defaultdict(int)
 		})
+		self.column_count = {
+			"total": 0,
+			"min": float("inf"),
+			"max": 0,
+		}
 
 	def feed_table(self, wb, table, schema_file):
 		self.table_count += 1
@@ -35,12 +40,19 @@ class AnalysisManager(object):
 
 		self.workbooks[wb]["tables"][table] = table_stats
 
+		column_count = len(schema.keys())
+		self.column_count["min"] = min(self.column_count["min"], column_count)
+		self.column_count["max"] = max(self.column_count["max"], column_count)
+		self.column_count["total"] += column_count
+
 	def get_stats(self):
 		for datatype_name, count in self.table_average.items():
 			self.table_average[datatype_name] = float(count) / self.table_count
+		self.column_count["average"] = float(self.column_count["total"]) / self.table_count
 		return {
 			"table_average": self.table_average,
-			"workbooks": self.workbooks
+			"workbooks": self.workbooks,
+			"column_count": self.column_count
 		}
 
 
