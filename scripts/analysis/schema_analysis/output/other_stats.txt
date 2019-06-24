@@ -1,0 +1,1 @@
+[stats] tables with less than 80 columns: 186 out of 207 (89.85507246376811%)]

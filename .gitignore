@@ -11,5 +11,3 @@ benchmark/*/queries-vectorwise/*.err
 benchmark/*/queries-vectorwise/*.ret
 
 benchmark/Test
-
-scripts/analysis/schema_analysis/output

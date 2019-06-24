@@ -1,0 +1,1847 @@
+{
+  "table_average": {
+    "varchar": 16.666666666666668,
+    "timestamp": 0.26570048309178745,
+    "decimal": 11.144927536231885,
+    "smallint": 26.29951690821256,
+    "integer": 2.449275362318841,
+    "double": 7.111111111111111,
+    "date": 0.5652173913043478,
+    "boolean": 0.06763285024154589,
+    "bigint": 0.11594202898550725,
+    "time": 0.033816425120772944
+  },
+  "workbooks": {
+    "AirlineSentiment": {
+      "tables": {
+        "AirlineSentiment_1": {
+          "varchar": 2
+        }
+      },
+      "agg": {
+        "varchar": 2
+      }
+    },
+    "Arade": {
+      "tables": {
+        "Arade_1": {
+          "varchar": 4,
+          "timestamp": 1,
+          "decimal": 4,
+          "smallint": 2
+        }
+      },
+      "agg": {
+        "varchar": 4,
+        "timestamp": 1,
+        "decimal": 4,
+        "smallint": 2
+      }
+    },
+    "Bimbo": {
+      "tables": {
+        "Bimbo_1": {
+          "smallint": 7,
+          "integer": 3,
+          "double": 2
+        }
+      },
+      "agg": {
+        "smallint": 7,
+        "integer": 3,
+        "double": 2
+      }
+    },
+    "CMSprovider": {
+      "tables": {
+        "CMSprovider_1": {
+          "double": 7,
+          "integer": 4,
+          "varchar": 14,
+          "smallint": 1
+        },
+        "CMSprovider_2": {
+          "double": 7,
+          "integer": 4,
+          "varchar": 14,
+          "smallint": 1
+        }
+      },
+      "agg": {
+        "double": 14,
+        "integer": 8,
+        "varchar": 28,
+        "smallint": 2
+      }
+    },
+    "CityMaxCapita": {
+      "tables": {
+        "CityMaxCapita_1": {
+          "varchar": 18,
+          "double": 2,
+          "decimal": 4,
+          "integer": 5,
+          "smallint": 2
+        }
+      },
+      "agg": {
+        "varchar": 18,
+        "double": 2,
+        "decimal": 4,
+        "integer": 5,
+        "smallint": 2
+      }
+    },
+    "CommonGovernment": {
+      "tables": {
+        "CommonGovernment_1": {
+          "smallint": 4,
+          "varchar": 37,
+          "integer": 5,
+          "double": 9,
+          "decimal": 1
+        },
+        "CommonGovernment_10": {
+          "smallint": 4,
+          "varchar": 37,
+          "integer": 5,
+          "double": 9,
+          "decimal": 1
+        },
+        "CommonGovernment_11": {
+          "smallint": 4,
+          "varchar": 37,
+          "integer": 5,
+          "double": 9,
+          "decimal": 1
+        },
+        "CommonGovernment_12": {
+          "smallint": 4,
+          "varchar": 37,
+          "integer": 5,
+          "double": 9,
+          "decimal": 1
+        },
+        "CommonGovernment_13": {
+          "smallint": 4,
+          "varchar": 37,
+          "integer": 5,
+          "double": 9,
+          "decimal": 1
+        },
+        "CommonGovernment_2": {
+          "smallint": 4,
+          "varchar": 37,
+          "integer": 5,
+          "double": 9,
+          "decimal": 1
+        },
+        "CommonGovernment_3": {
+          "smallint": 4,
+          "varchar": 37,
+          "integer": 5,
+          "double": 9,
+          "decimal": 1
+        },
+        "CommonGovernment_4": {
+          "smallint": 4,
+          "varchar": 37,
+          "integer": 5,
+          "double": 9,
+          "decimal": 1
+        },
+        "CommonGovernment_5": {
+          "smallint": 4,
+          "varchar": 37,
+          "integer": 5,
+          "double": 9,
+          "decimal": 1
+        },
+        "CommonGovernment_6": {
+          "smallint": 4,
+          "varchar": 37,
+          "integer": 5,
+          "double": 9,
+          "decimal": 1
+        },
+        "CommonGovernment_7": {
+          "smallint": 4,
+          "varchar": 37,
+          "integer": 5,
+          "double": 9,
+          "decimal": 1
+        },
+        "CommonGovernment_8": {
+          "smallint": 4,
+          "varchar": 37,
+          "integer": 5,
+          "double": 9,
+          "decimal": 1
+        },
+        "CommonGovernment_9": {
+          "smallint": 4,
+          "varchar": 37,
+          "integer": 5,
+          "double": 9,
+          "decimal": 1
+        }
+      },
+      "agg": {
+        "smallint": 52,
+        "varchar": 481,
+        "integer": 65,
+        "double": 117,
+        "decimal": 13
+      }
+    },
+    "Corporations": {
+      "tables": {
+        "Corporations_1": {
+          "integer": 5,
+          "smallint": 1,
+          "varchar": 21
+        }
+      },
+      "agg": {
+        "integer": 5,
+        "smallint": 1,
+        "varchar": 21
+      }
+    },
+    "Eixo": {
+      "tables": {
+        "Eixo_1": {
+          "varchar": 59,
+          "timestamp": 1,
+          "date": 6,
+          "smallint": 7,
+          "integer": 5,
+          "boolean": 2
+        }
+      },
+      "agg": {
+        "varchar": 59,
+        "timestamp": 1,
+        "date": 6,
+        "smallint": 7,
+        "integer": 5,
+        "boolean": 2
+      }
+    },
+    "Euro2016": {
+      "tables": {
+        "Euro2016_1": {
+          "smallint": 1,
+          "integer": 1,
+          "varchar": 6,
+          "decimal": 2,
+          "timestamp": 1
+        }
+      },
+      "agg": {
+        "smallint": 1,
+        "integer": 1,
+        "varchar": 6,
+        "decimal": 2,
+        "timestamp": 1
+      }
+    },
+    "Food": {
+      "tables": {
+        "Food_1": {
+          "smallint": 2,
+          "integer": 1,
+          "varchar": 2,
+          "double": 1
+        }
+      },
+      "agg": {
+        "smallint": 2,
+        "integer": 1,
+        "varchar": 2,
+        "double": 1
+      }
+    },
+    "Generico": {
+      "tables": {
+        "Generico_1": {
+          "varchar": 26,
+          "smallint": 12,
+          "integer": 2,
+          "date": 1,
+          "double": 2
+        },
+        "Generico_2": {
+          "varchar": 26,
+          "smallint": 12,
+          "integer": 2,
+          "date": 1,
+          "double": 2
+        },
+        "Generico_3": {
+          "varchar": 26,
+          "smallint": 12,
+          "integer": 2,
+          "date": 1,
+          "double": 2
+        },
+        "Generico_4": {
+          "varchar": 26,
+          "smallint": 12,
+          "integer": 2,
+          "date": 1,
+          "double": 2
+        },
+        "Generico_5": {
+          "varchar": 26,
+          "smallint": 12,
+          "integer": 2,
+          "date": 1,
+          "double": 2
+        }
+      },
+      "agg": {
+        "varchar": 130,
+        "smallint": 60,
+        "integer": 10,
+        "date": 5,
+        "double": 10
+      }
+    },
+    "HashTags": {
+      "tables": {
+        "HashTags_1": {
+          "smallint": 35,
+          "varchar": 48,
+          "double": 6,
+          "decimal": 4,
+          "bigint": 1,
+          "integer": 6,
+          "timestamp": 1
+        }
+      },
+      "agg": {
+        "smallint": 35,
+        "varchar": 48,
+        "double": 6,
+        "decimal": 4,
+        "bigint": 1,
+        "integer": 6,
+        "timestamp": 1
+      }
+    },
+    "Hatred": {
+      "tables": {
+        "Hatred_1": {
+          "varchar": 17,
+          "double": 2,
+          "integer": 6,
+          "smallint": 2,
+          "decimal": 4
+        }
+      },
+      "agg": {
+        "varchar": 17,
+        "double": 2,
+        "integer": 6,
+        "smallint": 2,
+        "decimal": 4
+      }
+    },
+    "IGlocations1": {
+      "tables": {
+        "IGlocations1_1": {
+          "integer": 10,
+          "varchar": 3,
+          "smallint": 5
+        }
+      },
+      "agg": {
+        "integer": 10,
+        "varchar": 3,
+        "smallint": 5
+      }
+    },
+    "IGlocations2": {
+      "tables": {
+        "IGlocations2_1": {
+          "smallint": 1,
+          "varchar": 12,
+          "timestamp": 1,
+          "integer": 2,
+          "decimal": 4
+        },
+        "IGlocations2_2": {
+          "smallint": 1,
+          "varchar": 12,
+          "timestamp": 1,
+          "integer": 2,
+          "decimal": 4
+        }
+      },
+      "agg": {
+        "smallint": 2,
+        "varchar": 24,
+        "timestamp": 2,
+        "integer": 4,
+        "decimal": 8
+      }
+    },
+    "IUBLibrary": {
+      "tables": {
+        "IUBLibrary_1": {
+          "varchar": 16,
+          "smallint": 4,
+          "integer": 3,
+          "date": 4
+        }
+      },
+      "agg": {
+        "varchar": 16,
+        "smallint": 4,
+        "integer": 3,
+        "date": 4
+      }
+    },
+    "MLB": {
+      "tables": {
+        "MLB_1": {
+          "smallint": 28,
+          "decimal": 14,
+          "varchar": 6
+        },
+        "MLB_10": {
+          "smallint": 21,
+          "decimal": 14,
+          "varchar": 5
+        },
+        "MLB_11": {
+          "smallint": 21,
+          "decimal": 14,
+          "varchar": 5
+        },
+        "MLB_12": {
+          "smallint": 28,
+          "decimal": 14,
+          "varchar": 6
+        },
+        "MLB_13": {
+          "smallint": 28,
+          "decimal": 14,
+          "varchar": 6
+        },
+        "MLB_14": {
+          "smallint": 28,
+          "decimal": 14,
+          "varchar": 6
+        },
+        "MLB_15": {
+          "smallint": 36,
+          "decimal": 25,
+          "varchar": 7
+        },
+        "MLB_16": {
+          "smallint": 36,
+          "decimal": 25,
+          "varchar": 7
+        },
+        "MLB_17": {
+          "smallint": 36,
+          "decimal": 25,
+          "varchar": 7
+        },
+        "MLB_18": {
+          "smallint": 36,
+          "decimal": 25,
+          "varchar": 7
+        },
+        "MLB_19": {
+          "smallint": 33,
+          "decimal": 24,
+          "varchar": 4
+        },
+        "MLB_2": {
+          "smallint": 5,
+          "varchar": 14,
+          "double": 3,
+          "decimal": 1,
+          "date": 1
+        },
+        "MLB_20": {
+          "smallint": 33,
+          "decimal": 24,
+          "varchar": 4
+        },
+        "MLB_21": {
+          "smallint": 33,
+          "decimal": 24,
+          "varchar": 4
+        },
+        "MLB_22": {
+          "smallint": 33,
+          "decimal": 24,
+          "varchar": 4
+        },
+        "MLB_23": {
+          "smallint": 33,
+          "decimal": 24,
+          "varchar": 4
+        },
+        "MLB_24": {
+          "smallint": 33,
+          "decimal": 24,
+          "varchar": 4
+        },
+        "MLB_25": {
+          "smallint": 32,
+          "decimal": 24,
+          "varchar": 5
+        },
+        "MLB_26": {
+          "smallint": 32,
+          "decimal": 24,
+          "varchar": 5
+        },
+        "MLB_27": {
+          "smallint": 32,
+          "decimal": 24,
+          "varchar": 5
+        },
+        "MLB_28": {
+          "smallint": 32,
+          "decimal": 24,
+          "varchar": 5
+        },
+        "MLB_29": {
+          "smallint": 32,
+          "decimal": 24,
+          "varchar": 5
+        },
+        "MLB_3": {
+          "smallint": 5,
+          "varchar": 14,
+          "double": 3,
+          "decimal": 1,
+          "date": 1
+        },
+        "MLB_30": {
+          "smallint": 32,
+          "decimal": 24,
+          "varchar": 5
+        },
+        "MLB_31": {
+          "smallint": 33,
+          "decimal": 24,
+          "varchar": 4
+        },
+        "MLB_32": {
+          "smallint": 33,
+          "decimal": 24,
+          "varchar": 4
+        },
+        "MLB_33": {
+          "smallint": 33,
+          "decimal": 24,
+          "varchar": 4
+        },
+        "MLB_34": {
+          "smallint": 33,
+          "decimal": 24,
+          "varchar": 4
+        },
+        "MLB_35": {
+          "smallint": 33,
+          "decimal": 24,
+          "varchar": 4
+        },
+        "MLB_36": {
+          "smallint": 33,
+          "decimal": 24,
+          "varchar": 4
+        },
+        "MLB_37": {
+          "smallint": 33,
+          "decimal": 24,
+          "varchar": 4
+        },
+        "MLB_38": {
+          "smallint": 26,
+          "decimal": 17,
+          "integer": 1,
+          "varchar": 5
+        },
+        "MLB_39": {
+          "smallint": 26,
+          "decimal": 17,
+          "integer": 1,
+          "varchar": 5
+        },
+        "MLB_4": {
+          "smallint": 5,
+          "varchar": 14,
+          "double": 3,
+          "decimal": 1,
+          "date": 1
+        },
+        "MLB_40": {
+          "smallint": 26,
+          "decimal": 17,
+          "integer": 1,
+          "varchar": 5
+        },
+        "MLB_41": {
+          "smallint": 32,
+          "decimal": 21,
+          "varchar": 5
+        },
+        "MLB_42": {
+          "smallint": 32,
+          "decimal": 21,
+          "varchar": 5
+        },
+        "MLB_43": {
+          "smallint": 32,
+          "decimal": 21,
+          "varchar": 5
+        },
+        "MLB_44": {
+          "smallint": 32,
+          "decimal": 21,
+          "varchar": 5
+        },
+        "MLB_45": {
+          "smallint": 36,
+          "decimal": 25,
+          "varchar": 5
+        },
+        "MLB_46": {
+          "smallint": 36,
+          "decimal": 25,
+          "varchar": 5
+        },
+        "MLB_47": {
+          "smallint": 36,
+          "decimal": 25,
+          "varchar": 5
+        },
+        "MLB_48": {
+          "smallint": 36,
+          "decimal": 25,
+          "varchar": 5
+        },
+        "MLB_49": {
+          "smallint": 32,
+          "decimal": 24,
+          "varchar": 6
+        },
+        "MLB_5": {
+          "smallint": 8,
+          "varchar": 15,
+          "date": 2,
+          "double": 3,
+          "decimal": 1
+        },
+        "MLB_50": {
+          "smallint": 32,
+          "decimal": 24,
+          "varchar": 6
+        },
+        "MLB_51": {
+          "smallint": 32,
+          "decimal": 24,
+          "varchar": 6
+        },
+        "MLB_52": {
+          "decimal": 11,
+          "smallint": 2,
+          "varchar": 3
+        },
+        "MLB_53": {
+          "smallint": 36,
+          "decimal": 26,
+          "varchar": 5
+        },
+        "MLB_54": {
+          "smallint": 36,
+          "decimal": 26,
+          "varchar": 5
+        },
+        "MLB_55": {
+          "smallint": 36,
+          "decimal": 26,
+          "varchar": 5
+        },
+        "MLB_56": {
+          "smallint": 36,
+          "decimal": 26,
+          "varchar": 5
+        },
+        "MLB_57": {
+          "decimal": 20,
+          "smallint": 2,
+          "varchar": 1
+        },
+        "MLB_58": {
+          "smallint": 39,
+          "decimal": 26,
+          "varchar": 4
+        },
+        "MLB_59": {
+          "smallint": 39,
+          "decimal": 26,
+          "varchar": 4
+        },
+        "MLB_6": {
+          "smallint": 8,
+          "varchar": 15,
+          "date": 2,
+          "double": 3,
+          "decimal": 1
+        },
+        "MLB_60": {
+          "smallint": 39,
+          "decimal": 26,
+          "varchar": 4
+        },
+        "MLB_61": {
+          "smallint": 39,
+          "decimal": 26,
+          "varchar": 4
+        },
+        "MLB_62": {
+          "smallint": 39,
+          "decimal": 26,
+          "varchar": 4
+        },
+        "MLB_63": {
+          "smallint": 35,
+          "decimal": 24,
+          "varchar": 13
+        },
+        "MLB_64": {
+          "smallint": 35,
+          "decimal": 24,
+          "varchar": 13
+        },
+        "MLB_65": {
+          "smallint": 35,
+          "decimal": 24,
+          "varchar": 13
+        },
+        "MLB_66": {
+          "smallint": 8,
+          "varchar": 17,
+          "date": 1,
+          "double": 3,
+          "decimal": 1
+        },
+        "MLB_67": {
+          "smallint": 5,
+          "varchar": 14,
+          "double": 3,
+          "decimal": 1,
+          "date": 1
+        },
+        "MLB_68": {
+          "smallint": 8,
+          "varchar": 15,
+          "date": 2,
+          "double": 3,
+          "decimal": 1
+        },
+        "MLB_7": {
+          "smallint": 21,
+          "decimal": 14,
+          "varchar": 5
+        },
+        "MLB_8": {
+          "smallint": 21,
+          "decimal": 14,
+          "varchar": 5
+        },
+        "MLB_9": {
+          "smallint": 21,
+          "decimal": 14,
+          "varchar": 5
+        }
+      },
+      "agg": {
+        "smallint": 1928,
+        "decimal": 1334,
+        "varchar": 433,
+        "double": 24,
+        "date": 11,
+        "integer": 3
+      }
+    },
+    "MedPayment1": {
+      "tables": {
+        "MedPayment1_1": {
+          "smallint": 1,
+          "double": 7,
+          "integer": 4,
+          "varchar": 16
+        }
+      },
+      "agg": {
+        "smallint": 1,
+        "double": 7,
+        "integer": 4,
+        "varchar": 16
+      }
+    },
+    "MedPayment2": {
+      "tables": {
+        "MedPayment2_1": {
+          "smallint": 1,
+          "double": 8,
+          "integer": 4,
+          "varchar": 16
+        }
+      },
+      "agg": {
+        "smallint": 1,
+        "double": 8,
+        "integer": 4,
+        "varchar": 16
+      }
+    },
+    "Medicare1": {
+      "tables": {
+        "Medicare1_1": {
+          "smallint": 7,
+          "varchar": 10,
+          "decimal": 1,
+          "double": 5,
+          "integer": 3
+        },
+        "Medicare1_2": {
+          "smallint": 7,
+          "varchar": 10,
+          "decimal": 1,
+          "double": 5,
+          "integer": 3
+        }
+      },
+      "agg": {
+        "smallint": 14,
+        "varchar": 20,
+        "decimal": 2,
+        "double": 10,
+        "integer": 6
+      }
+    },
+    "Medicare2": {
+      "tables": {
+        "Medicare2_1": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Medicare2_2": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        }
+      },
+      "agg": {
+        "smallint": 2,
+        "double": 12,
+        "integer": 12,
+        "varchar": 30
+      }
+    },
+    "Medicare3": {
+      "tables": {
+        "Medicare3_1": {
+          "double": 7,
+          "integer": 4,
+          "varchar": 17,
+          "smallint": 1
+        }
+      },
+      "agg": {
+        "double": 7,
+        "integer": 4,
+        "varchar": 17,
+        "smallint": 1
+      }
+    },
+    "Motos": {
+      "tables": {
+        "Motos_1": {
+          "varchar": 27,
+          "smallint": 12,
+          "integer": 2,
+          "date": 1,
+          "double": 2
+        },
+        "Motos_2": {
+          "varchar": 27,
+          "smallint": 12,
+          "integer": 2,
+          "date": 1,
+          "double": 2
+        }
+      },
+      "agg": {
+        "varchar": 54,
+        "smallint": 24,
+        "integer": 4,
+        "date": 2,
+        "double": 4
+      }
+    },
+    "MulheresMil": {
+      "tables": {
+        "MulheresMil_1": {
+          "varchar": 60,
+          "timestamp": 1,
+          "date": 6,
+          "smallint": 7,
+          "integer": 5,
+          "boolean": 2
+        }
+      },
+      "agg": {
+        "varchar": 60,
+        "timestamp": 1,
+        "date": 6,
+        "smallint": 7,
+        "integer": 5,
+        "boolean": 2
+      }
+    },
+    "NYC": {
+      "tables": {
+        "NYC_1": {
+          "varchar": 42,
+          "date": 1,
+          "timestamp": 4,
+          "bigint": 1,
+          "decimal": 2,
+          "smallint": 1,
+          "integer": 3
+        },
+        "NYC_2": {
+          "varchar": 42,
+          "date": 1,
+          "timestamp": 4,
+          "bigint": 1,
+          "decimal": 2,
+          "smallint": 1,
+          "integer": 3
+        }
+      },
+      "agg": {
+        "varchar": 84,
+        "date": 2,
+        "timestamp": 8,
+        "bigint": 2,
+        "decimal": 4,
+        "smallint": 2,
+        "integer": 6
+      }
+    },
+    "PanCreactomy1": {
+      "tables": {
+        "PanCreactomy1_1": {
+          "double": 7,
+          "integer": 4,
+          "varchar": 17,
+          "smallint": 1
+        }
+      },
+      "agg": {
+        "double": 7,
+        "integer": 4,
+        "varchar": 17,
+        "smallint": 1
+      }
+    },
+    "PanCreactomy2": {
+      "tables": {
+        "PanCreactomy2_1": {
+          "double": 7,
+          "integer": 4,
+          "varchar": 17,
+          "smallint": 1
+        },
+        "PanCreactomy2_2": {
+          "double": 7,
+          "integer": 4,
+          "varchar": 17,
+          "smallint": 1
+        }
+      },
+      "agg": {
+        "double": 14,
+        "integer": 8,
+        "varchar": 34,
+        "smallint": 2
+      }
+    },
+    "Physicians": {
+      "tables": {
+        "Physicians_1": {
+          "smallint": 1,
+          "double": 7,
+          "integer": 4,
+          "varchar": 16
+        }
+      },
+      "agg": {
+        "smallint": 1,
+        "double": 7,
+        "integer": 4,
+        "varchar": 16
+      }
+    },
+    "Provider": {
+      "tables": {
+        "Provider_1": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Provider_2": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Provider_3": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Provider_4": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Provider_5": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Provider_6": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Provider_7": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Provider_8": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        }
+      },
+      "agg": {
+        "smallint": 8,
+        "double": 48,
+        "integer": 48,
+        "varchar": 120
+      }
+    },
+    "RealEstate1": {
+      "tables": {
+        "RealEstate1_1": {
+          "varchar": 17,
+          "timestamp": 2,
+          "decimal": 1,
+          "double": 3,
+          "smallint": 4,
+          "integer": 1
+        },
+        "RealEstate1_2": {
+          "varchar": 17,
+          "timestamp": 2,
+          "decimal": 1,
+          "double": 3,
+          "smallint": 4,
+          "integer": 1
+        }
+      },
+      "agg": {
+        "varchar": 34,
+        "timestamp": 4,
+        "decimal": 2,
+        "double": 6,
+        "smallint": 8,
+        "integer": 2
+      }
+    },
+    "RealEstate2": {
+      "tables": {
+        "RealEstate2_1": {
+          "varchar": 21,
+          "date": 1,
+          "decimal": 1,
+          "double": 1,
+          "smallint": 1,
+          "integer": 1,
+          "boolean": 1
+        },
+        "RealEstate2_2": {
+          "varchar": 21,
+          "date": 1,
+          "decimal": 1,
+          "double": 1,
+          "smallint": 1,
+          "integer": 1,
+          "boolean": 1
+        },
+        "RealEstate2_3": {
+          "varchar": 21,
+          "date": 1,
+          "decimal": 1,
+          "double": 1,
+          "smallint": 1,
+          "integer": 1,
+          "boolean": 1
+        },
+        "RealEstate2_4": {
+          "varchar": 21,
+          "date": 1,
+          "decimal": 1,
+          "double": 1,
+          "smallint": 1,
+          "integer": 1,
+          "boolean": 1
+        },
+        "RealEstate2_5": {
+          "varchar": 21,
+          "date": 1,
+          "decimal": 1,
+          "double": 1,
+          "smallint": 1,
+          "integer": 1,
+          "boolean": 1
+        },
+        "RealEstate2_6": {
+          "varchar": 21,
+          "date": 1,
+          "decimal": 1,
+          "double": 1,
+          "smallint": 1,
+          "integer": 1,
+          "boolean": 1
+        },
+        "RealEstate2_7": {
+          "varchar": 21,
+          "date": 1,
+          "decimal": 1,
+          "double": 1,
+          "smallint": 1,
+          "integer": 1,
+          "boolean": 1
+        }
+      },
+      "agg": {
+        "varchar": 147,
+        "date": 7,
+        "decimal": 7,
+        "double": 7,
+        "smallint": 7,
+        "integer": 7,
+        "boolean": 7
+      }
+    },
+    "Redfin1": {
+      "tables": {
+        "Redfin1_1": {
+          "smallint": 2,
+          "decimal": 4,
+          "double": 26,
+          "varchar": 6,
+          "integer": 4,
+          "date": 2
+        },
+        "Redfin1_2": {
+          "smallint": 2,
+          "decimal": 4,
+          "double": 26,
+          "varchar": 6,
+          "integer": 4,
+          "date": 2
+        },
+        "Redfin1_3": {
+          "smallint": 2,
+          "decimal": 4,
+          "double": 26,
+          "varchar": 6,
+          "integer": 4,
+          "date": 2
+        },
+        "Redfin1_4": {
+          "smallint": 2,
+          "decimal": 4,
+          "double": 26,
+          "varchar": 6,
+          "integer": 4,
+          "date": 2
+        }
+      },
+      "agg": {
+        "smallint": 8,
+        "decimal": 16,
+        "double": 104,
+        "varchar": 24,
+        "integer": 16,
+        "date": 8
+      }
+    },
+    "Redfin2": {
+      "tables": {
+        "Redfin2_1": {
+          "smallint": 2,
+          "decimal": 4,
+          "double": 26,
+          "varchar": 6,
+          "integer": 4,
+          "date": 2
+        },
+        "Redfin2_2": {
+          "smallint": 2,
+          "decimal": 4,
+          "double": 26,
+          "varchar": 6,
+          "integer": 4,
+          "date": 2
+        },
+        "Redfin2_3": {
+          "smallint": 2,
+          "decimal": 4,
+          "double": 26,
+          "varchar": 6,
+          "integer": 4,
+          "date": 2
+        }
+      },
+      "agg": {
+        "smallint": 6,
+        "decimal": 12,
+        "double": 78,
+        "varchar": 18,
+        "integer": 12,
+        "date": 6
+      }
+    },
+    "Redfin3": {
+      "tables": {
+        "Redfin3_1": {
+          "smallint": 2,
+          "decimal": 5,
+          "double": 28,
+          "varchar": 6,
+          "integer": 4,
+          "date": 2
+        },
+        "Redfin3_2": {
+          "smallint": 2,
+          "decimal": 5,
+          "double": 28,
+          "varchar": 6,
+          "integer": 4,
+          "date": 2
+        }
+      },
+      "agg": {
+        "smallint": 4,
+        "decimal": 10,
+        "double": 56,
+        "varchar": 12,
+        "integer": 8,
+        "date": 4
+      }
+    },
+    "Redfin4": {
+      "tables": {
+        "Redfin4_1": {
+          "smallint": 2,
+          "decimal": 5,
+          "double": 29,
+          "varchar": 6,
+          "integer": 4,
+          "date": 2
+        }
+      },
+      "agg": {
+        "smallint": 2,
+        "decimal": 5,
+        "double": 29,
+        "varchar": 6,
+        "integer": 4,
+        "date": 2
+      }
+    },
+    "Rentabilidad": {
+      "tables": {
+        "Rentabilidad_1": {
+          "decimal": 18,
+          "double": 46,
+          "varchar": 57,
+          "smallint": 13,
+          "integer": 5,
+          "bigint": 2
+        },
+        "Rentabilidad_2": {
+          "decimal": 18,
+          "double": 45,
+          "varchar": 56,
+          "smallint": 13,
+          "integer": 6
+        },
+        "Rentabilidad_3": {
+          "decimal": 18,
+          "double": 46,
+          "varchar": 57,
+          "smallint": 13,
+          "integer": 5,
+          "bigint": 2
+        },
+        "Rentabilidad_4": {
+          "decimal": 18,
+          "double": 46,
+          "varchar": 57,
+          "smallint": 13,
+          "integer": 5,
+          "bigint": 2
+        },
+        "Rentabilidad_5": {
+          "decimal": 18,
+          "double": 46,
+          "varchar": 57,
+          "smallint": 13,
+          "integer": 5,
+          "bigint": 2
+        },
+        "Rentabilidad_6": {
+          "decimal": 18,
+          "double": 46,
+          "varchar": 57,
+          "smallint": 13,
+          "integer": 5,
+          "bigint": 2
+        },
+        "Rentabilidad_7": {
+          "decimal": 18,
+          "double": 46,
+          "varchar": 57,
+          "smallint": 13,
+          "integer": 5,
+          "bigint": 2
+        },
+        "Rentabilidad_8": {
+          "decimal": 18,
+          "double": 46,
+          "varchar": 57,
+          "smallint": 13,
+          "integer": 5,
+          "bigint": 2
+        },
+        "Rentabilidad_9": {
+          "decimal": 18,
+          "double": 46,
+          "varchar": 57,
+          "smallint": 13,
+          "integer": 5,
+          "bigint": 2
+        }
+      },
+      "agg": {
+        "decimal": 162,
+        "double": 413,
+        "varchar": 512,
+        "smallint": 117,
+        "integer": 46,
+        "bigint": 16
+      }
+    },
+    "Romance": {
+      "tables": {
+        "Romance_1": {
+          "integer": 2,
+          "smallint": 1,
+          "varchar": 6,
+          "decimal": 1,
+          "double": 1,
+          "bigint": 1
+        },
+        "Romance_2": {
+          "integer": 2,
+          "smallint": 1,
+          "varchar": 6,
+          "decimal": 1,
+          "double": 1,
+          "bigint": 1
+        }
+      },
+      "agg": {
+        "integer": 4,
+        "smallint": 2,
+        "varchar": 12,
+        "decimal": 2,
+        "double": 2,
+        "bigint": 2
+      }
+    },
+    "SalariesFrance": {
+      "tables": {
+        "SalariesFrance_1": {
+          "varchar": 21,
+          "decimal": 3,
+          "double": 27,
+          "smallint": 6
+        },
+        "SalariesFrance_10": {
+          "varchar": 21,
+          "decimal": 3,
+          "double": 27,
+          "smallint": 6
+        },
+        "SalariesFrance_11": {
+          "varchar": 21,
+          "decimal": 3,
+          "double": 27,
+          "smallint": 6
+        },
+        "SalariesFrance_12": {
+          "varchar": 21,
+          "decimal": 3,
+          "double": 27,
+          "smallint": 6
+        },
+        "SalariesFrance_13": {
+          "varchar": 21,
+          "decimal": 3,
+          "double": 27,
+          "smallint": 6
+        },
+        "SalariesFrance_2": {
+          "varchar": 8,
+          "smallint": 2,
+          "decimal": 1
+        },
+        "SalariesFrance_3": {
+          "varchar": 21,
+          "decimal": 3,
+          "double": 27,
+          "smallint": 6
+        },
+        "SalariesFrance_4": {
+          "varchar": 21,
+          "decimal": 3,
+          "double": 27,
+          "smallint": 6
+        },
+        "SalariesFrance_5": {
+          "varchar": 21,
+          "decimal": 3,
+          "double": 27,
+          "smallint": 6
+        },
+        "SalariesFrance_6": {
+          "varchar": 21,
+          "decimal": 3,
+          "double": 27,
+          "smallint": 6
+        },
+        "SalariesFrance_7": {
+          "varchar": 21,
+          "decimal": 3,
+          "double": 27,
+          "smallint": 6
+        },
+        "SalariesFrance_8": {
+          "varchar": 21,
+          "decimal": 3,
+          "double": 27,
+          "smallint": 6
+        },
+        "SalariesFrance_9": {
+          "varchar": 21,
+          "decimal": 3,
+          "double": 27,
+          "smallint": 6
+        }
+      },
+      "agg": {
+        "varchar": 260,
+        "decimal": 37,
+        "double": 324,
+        "smallint": 74
+      }
+    },
+    "TableroSistemaPenal": {
+      "tables": {
+        "TableroSistemaPenal_1": {
+          "varchar": 19,
+          "double": 1,
+          "smallint": 4,
+          "decimal": 3
+        },
+        "TableroSistemaPenal_2": {
+          "varchar": 14,
+          "smallint": 7,
+          "integer": 1
+        },
+        "TableroSistemaPenal_3": {
+          "varchar": 6,
+          "smallint": 7,
+          "decimal": 6,
+          "timestamp": 1,
+          "integer": 1
+        },
+        "TableroSistemaPenal_4": {
+          "varchar": 6,
+          "smallint": 7,
+          "decimal": 6,
+          "timestamp": 1,
+          "integer": 1
+        },
+        "TableroSistemaPenal_5": {
+          "varchar": 6,
+          "smallint": 7,
+          "decimal": 6,
+          "timestamp": 1,
+          "integer": 1
+        },
+        "TableroSistemaPenal_6": {
+          "varchar": 6,
+          "smallint": 6,
+          "timestamp": 1
+        },
+        "TableroSistemaPenal_7": {
+          "varchar": 19,
+          "double": 1,
+          "smallint": 4,
+          "decimal": 3
+        },
+        "TableroSistemaPenal_8": {
+          "varchar": 15,
+          "smallint": 4,
+          "integer": 2,
+          "timestamp": 1
+        }
+      },
+      "agg": {
+        "varchar": 91,
+        "double": 2,
+        "smallint": 46,
+        "decimal": 24,
+        "integer": 6,
+        "timestamp": 5
+      }
+    },
+    "Taxpayer": {
+      "tables": {
+        "Taxpayer_1": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Taxpayer_10": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Taxpayer_2": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Taxpayer_3": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Taxpayer_4": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Taxpayer_5": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Taxpayer_6": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Taxpayer_7": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Taxpayer_8": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        },
+        "Taxpayer_9": {
+          "smallint": 1,
+          "double": 6,
+          "integer": 6,
+          "varchar": 15
+        }
+      },
+      "agg": {
+        "smallint": 10,
+        "double": 60,
+        "integer": 60,
+        "varchar": 150
+      }
+    },
+    "Telco": {
+      "tables": {
+        "Telco_1": {
+          "timestamp": 4,
+          "decimal": 99,
+          "double": 75,
+          "boolean": 1,
+          "smallint": 1,
+          "varchar": 1
+        }
+      },
+      "agg": {
+        "timestamp": 4,
+        "decimal": 99,
+        "double": 75,
+        "boolean": 1,
+        "smallint": 1,
+        "varchar": 1
+      }
+    },
+    "TrainsUK1": {
+      "tables": {
+        "TrainsUK1_1": {
+          "date": 1,
+          "smallint": 2
+        },
+        "TrainsUK1_2": {
+          "double": 1,
+          "decimal": 9,
+          "varchar": 13,
+          "smallint": 4,
+          "time": 1
+        },
+        "TrainsUK1_3": {
+          "double": 1,
+          "decimal": 9,
+          "varchar": 13,
+          "smallint": 4,
+          "time": 1
+        },
+        "TrainsUK1_4": {
+          "double": 1,
+          "decimal": 9,
+          "varchar": 13,
+          "smallint": 4,
+          "time": 1
+        }
+      },
+      "agg": {
+        "date": 1,
+        "smallint": 14,
+        "double": 3,
+        "decimal": 27,
+        "varchar": 39,
+        "time": 3
+      }
+    },
+    "TrainsUK2": {
+      "tables": {
+        "TrainsUK2_1": {
+          "decimal": 3,
+          "timestamp": 8,
+          "varchar": 13,
+          "smallint": 10,
+          "integer": 3
+        },
+        "TrainsUK2_2": {
+          "decimal": 3,
+          "timestamp": 8,
+          "varchar": 13,
+          "smallint": 10,
+          "integer": 3
+        }
+      },
+      "agg": {
+        "decimal": 6,
+        "timestamp": 16,
+        "varchar": 26,
+        "smallint": 20,
+        "integer": 6
+      }
+    },
+    "USCensus": {
+      "tables": {
+        "USCensus_1": {
+          "smallint": 492,
+          "integer": 20,
+          "varchar": 6,
+          "bigint": 1
+        },
+        "USCensus_2": {
+          "smallint": 492,
+          "integer": 20,
+          "varchar": 6,
+          "bigint": 1
+        },
+        "USCensus_3": {
+          "smallint": 492,
+          "integer": 20,
+          "varchar": 6,
+          "bigint": 1
+        }
+      },
+      "agg": {
+        "smallint": 1476,
+        "integer": 60,
+        "varchar": 18,
+        "bigint": 3
+      }
+    },
+    "Uberlandia": {
+      "tables": {
+        "Uberlandia_1": {
+          "varchar": 57,
+          "timestamp": 1,
+          "date": 6,
+          "smallint": 8,
+          "integer": 7,
+          "boolean": 2
+        }
+      },
+      "agg": {
+        "varchar": 57,
+        "timestamp": 1,
+        "date": 6,
+        "smallint": 8,
+        "integer": 7,
+        "boolean": 2
+      }
+    },
+    "Wins": {
+      "tables": {
+        "Wins_1": {
+          "varchar": 20,
+          "smallint": 193,
+          "decimal": 36,
+          "integer": 3,
+          "double": 2,
+          "date": 2,
+          "time": 1
+        },
+        "Wins_2": {
+          "double": 3,
+          "decimal": 161,
+          "smallint": 414,
+          "integer": 4,
+          "varchar": 49,
+          "date": 15,
+          "time": 1
+        },
+        "Wins_3": {
+          "double": 3,
+          "decimal": 161,
+          "smallint": 414,
+          "integer": 4,
+          "varchar": 49,
+          "date": 15,
+          "time": 1
+        },
+        "Wins_4": {
+          "double": 3,
+          "decimal": 161,
+          "smallint": 414,
+          "integer": 4,
+          "varchar": 49,
+          "date": 15,
+          "time": 1
+        }
+      },
+      "agg": {
+        "varchar": 167,
+        "smallint": 1435,
+        "decimal": 519,
+        "integer": 15,
+        "double": 11,
+        "date": 47,
+        "time": 4
+      }
+    },
+    "YaleLanguages": {
+      "tables": {
+        "YaleLanguages_1": {
+          "varchar": 20,
+          "integer": 2,
+          "timestamp": 2,
+          "smallint": 6
+        },
+        "YaleLanguages_2": {
+          "varchar": 20,
+          "integer": 2,
+          "timestamp": 2,
+          "smallint": 6
+        },
+        "YaleLanguages_3": {
+          "varchar": 20,
+          "integer": 2,
+          "timestamp": 2,
+          "smallint": 6
+        },
+        "YaleLanguages_4": {
+          "varchar": 20,
+          "integer": 2,
+          "timestamp": 2,
+          "smallint": 6
+        },
+        "YaleLanguages_5": {
+          "varchar": 20,
+          "integer": 2,
+          "timestamp": 2,
+          "smallint": 6
+        }
+      },
+      "agg": {
+        "varchar": 100,
+        "integer": 10,
+        "timestamp": 10,
+        "smallint": 30
+      }
+    }
+  },
+  "column_count": {
+    "total": 13397,
+    "min": 2,
+    "max": 647,
+    "average": 64.71980676328502
+  }
+}
