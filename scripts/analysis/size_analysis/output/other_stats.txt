@@ -1,0 +1,8 @@
+vectorwise-nocompression:
+[stats] total_size=365.2GiB
+
+vectorwise-default:
+[stats] total_size=141.0GiB
+
+vectorwise-compression_ratio:
+2.59
