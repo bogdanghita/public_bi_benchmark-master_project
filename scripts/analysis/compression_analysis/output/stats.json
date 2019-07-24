@@ -1,0 +1,1403 @@
+{
+  "workbooks": {
+    "Medicare3": {
+      "tables": {
+        "Medicare3_1": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 2,
+          "DictEstimator": 17
+        }
+      }
+    },
+    "Redfin1": {
+      "tables": {
+        "Redfin1_3": {
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 30,
+          "DictEstimator": 6,
+          "ForEstimator": 4
+        },
+        "Redfin1_2": {
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 30,
+          "DictEstimator": 6,
+          "ForEstimator": 4
+        },
+        "Redfin1_4": {
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 30,
+          "DictEstimator": 6,
+          "ForEstimator": 4
+        },
+        "Redfin1_1": {
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 30,
+          "DictEstimator": 6,
+          "ForEstimator": 4
+        }
+      }
+    },
+    "YaleLanguages": {
+      "tables": {
+        "YaleLanguages_5": {
+          "DictEstimator": 20,
+          "ForEstimator": 4,
+          "NoCompressionEstimator": 2,
+          "RleEstimator": 4
+        },
+        "YaleLanguages_3": {
+          "DictEstimator": 20,
+          "ForEstimator": 4,
+          "NoCompressionEstimator": 2,
+          "RleEstimator": 4
+        },
+        "YaleLanguages_1": {
+          "DictEstimator": 20,
+          "ForEstimator": 4,
+          "NoCompressionEstimator": 2,
+          "RleEstimator": 4
+        },
+        "YaleLanguages_4": {
+          "DictEstimator": 20,
+          "ForEstimator": 4,
+          "NoCompressionEstimator": 2,
+          "RleEstimator": 4
+        },
+        "YaleLanguages_2": {
+          "DictEstimator": 20,
+          "ForEstimator": 4,
+          "NoCompressionEstimator": 2,
+          "RleEstimator": 4
+        }
+      }
+    },
+    "CityMaxCapita": {
+      "tables": {
+        "CityMaxCapita_1": {
+          "DictEstimator": 17,
+          "NoCompressionEstimator": 4,
+          "RleEstimator": 6,
+          "ForEstimator": 4
+        }
+      }
+    },
+    "Taxpayer": {
+      "tables": {
+        "Taxpayer_6": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Taxpayer_10": {
+          "RleEstimator": 6,
+          "NoCompressionEstimator": 4,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Taxpayer_2": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Taxpayer_7": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Taxpayer_5": {
+          "RleEstimator": 6,
+          "NoCompressionEstimator": 4,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Taxpayer_9": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Taxpayer_3": {
+          "RleEstimator": 6,
+          "NoCompressionEstimator": 4,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Taxpayer_8": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Taxpayer_4": {
+          "RleEstimator": 6,
+          "NoCompressionEstimator": 4,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Taxpayer_1": {
+          "RleEstimator": 6,
+          "NoCompressionEstimator": 4,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        }
+      }
+    },
+    "CommonGovernment": {
+      "tables": {
+        "CommonGovernment_6": {
+          "RleEstimator": 18,
+          "DictEstimator": 37,
+          "NoCompressionEstimator": 1
+        },
+        "CommonGovernment_8": {
+          "RleEstimator": 17,
+          "DictEstimator": 37,
+          "NoCompressionEstimator": 2
+        },
+        "CommonGovernment_7": {
+          "RleEstimator": 16,
+          "DictEstimator": 37,
+          "NoCompressionEstimator": 3
+        },
+        "CommonGovernment_4": {
+          "RleEstimator": 17,
+          "DictEstimator": 37,
+          "NoCompressionEstimator": 2
+        },
+        "CommonGovernment_3": {
+          "RleEstimator": 17,
+          "DictEstimator": 37,
+          "NoCompressionEstimator": 2
+        },
+        "CommonGovernment_13": {
+          "RleEstimator": 18,
+          "DictEstimator": 37,
+          "NoCompressionEstimator": 1
+        },
+        "CommonGovernment_9": {
+          "RleEstimator": 18,
+          "DictEstimator": 37,
+          "NoCompressionEstimator": 1
+        },
+        "CommonGovernment_12": {
+          "RleEstimator": 18,
+          "DictEstimator": 37,
+          "NoCompressionEstimator": 1
+        },
+        "CommonGovernment_5": {
+          "RleEstimator": 18,
+          "DictEstimator": 37,
+          "NoCompressionEstimator": 1
+        },
+        "CommonGovernment_2": {
+          "RleEstimator": 18,
+          "DictEstimator": 37,
+          "NoCompressionEstimator": 1
+        },
+        "CommonGovernment_11": {
+          "RleEstimator": 16,
+          "DictEstimator": 37,
+          "NoCompressionEstimator": 3
+        },
+        "CommonGovernment_1": {
+          "RleEstimator": 17,
+          "DictEstimator": 37,
+          "NoCompressionEstimator": 2
+        },
+        "CommonGovernment_10": {
+          "RleEstimator": 18,
+          "DictEstimator": 37,
+          "NoCompressionEstimator": 1
+        }
+      }
+    },
+    "Corporations": {
+      "tables": {
+        "Corporations_1": {
+          "ForEstimator": 3,
+          "RleEstimator": 3,
+          "NoCompressionEstimator": 6,
+          "DictEstimator": 15
+        }
+      }
+    },
+    "Uberlandia": {
+      "tables": {
+        "Uberlandia_1": {
+          "DictEstimator": 53,
+          "NoCompressionEstimator": 13,
+          "RleEstimator": 14,
+          "ForEstimator": 1
+        }
+      }
+    },
+    "MedPayment2": {
+      "tables": {
+        "MedPayment2_1": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 6,
+          "ForEstimator": 2,
+          "DictEstimator": 16
+        }
+      }
+    },
+    "Eixo": {
+      "tables": {
+        "Eixo_1": {
+          "DictEstimator": 55,
+          "NoCompressionEstimator": 13,
+          "RleEstimator": 11,
+          "ForEstimator": 1
+        }
+      }
+    },
+    "Redfin4": {
+      "tables": {
+        "Redfin4_1": {
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 33,
+          "DictEstimator": 6,
+          "ForEstimator": 5
+        }
+      }
+    },
+    "NYC": {
+      "tables": {
+        "NYC_2": {
+          "DictEstimator": 31,
+          "NoCompressionEstimator": 16,
+          "RleEstimator": 6,
+          "ForEstimator": 1
+        },
+        "NYC_1": {
+          "DictEstimator": 31,
+          "NoCompressionEstimator": 16,
+          "RleEstimator": 6,
+          "ForEstimator": 1
+        }
+      }
+    },
+    "TrainsUK1": {
+      "tables": {
+        "TrainsUK1_4": {
+          "NoCompressionEstimator": 7,
+          "RleEstimator": 8,
+          "DictEstimator": 11,
+          "ForEstimator": 2
+        },
+        "TrainsUK1_2": {
+          "NoCompressionEstimator": 7,
+          "RleEstimator": 8,
+          "DictEstimator": 11,
+          "ForEstimator": 2
+        },
+        "TrainsUK1_3": {
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 7,
+          "DictEstimator": 12,
+          "ForEstimator": 1
+        }
+      }
+    },
+    "RealEstate1": {
+      "tables": {
+        "RealEstate1_2": {
+          "DictEstimator": 15,
+          "NoCompressionEstimator": 6,
+          "ForEstimator": 2,
+          "RleEstimator": 5
+        },
+        "RealEstate1_1": {
+          "DictEstimator": 15,
+          "NoCompressionEstimator": 6,
+          "ForEstimator": 2,
+          "RleEstimator": 5
+        }
+      }
+    },
+    "Rentabilidad": {
+      "tables": {
+        "Rentabilidad_9": {
+          "RleEstimator": 77,
+          "NoCompressionEstimator": 20,
+          "DictEstimator": 43,
+          "ForEstimator": 1
+        },
+        "Rentabilidad_1": {
+          "RleEstimator": 69,
+          "NoCompressionEstimator": 34,
+          "DictEstimator": 37,
+          "ForEstimator": 1
+        },
+        "Rentabilidad_5": {
+          "RleEstimator": 77,
+          "NoCompressionEstimator": 27,
+          "DictEstimator": 36,
+          "ForEstimator": 1
+        },
+        "Rentabilidad_3": {
+          "RleEstimator": 73,
+          "NoCompressionEstimator": 29,
+          "DictEstimator": 38,
+          "ForEstimator": 1
+        },
+        "Rentabilidad_4": {
+          "RleEstimator": 68,
+          "NoCompressionEstimator": 34,
+          "DictEstimator": 38,
+          "ForEstimator": 1
+        },
+        "Rentabilidad_7": {
+          "RleEstimator": 68,
+          "NoCompressionEstimator": 33,
+          "DictEstimator": 39,
+          "ForEstimator": 1
+        },
+        "Rentabilidad_6": {
+          "RleEstimator": 77,
+          "NoCompressionEstimator": 21,
+          "DictEstimator": 42,
+          "ForEstimator": 1
+        },
+        "Rentabilidad_8": {
+          "RleEstimator": 68,
+          "NoCompressionEstimator": 31,
+          "DictEstimator": 41,
+          "ForEstimator": 1
+        },
+        "Rentabilidad_2": {
+          "RleEstimator": 70,
+          "NoCompressionEstimator": 24,
+          "DictEstimator": 42,
+          "ForEstimator": 2
+        }
+      }
+    },
+    "Provider": {
+      "tables": {
+        "Provider_2": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Provider_7": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Provider_6": {
+          "RleEstimator": 6,
+          "NoCompressionEstimator": 4,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Provider_4": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Provider_8": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Provider_3": {
+          "RleEstimator": 6,
+          "NoCompressionEstimator": 4,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Provider_1": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Provider_5": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        }
+      }
+    },
+    "IGlocations1": {
+      "tables": {
+        "IGlocations1_1": {
+          "ForEstimator": 8,
+          "RleEstimator": 7,
+          "DictEstimator": 3
+        }
+      }
+    },
+    "PanCreactomy1": {
+      "tables": {
+        "PanCreactomy1_1": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 2,
+          "DictEstimator": 17
+        }
+      }
+    },
+    "IUBLibrary": {
+      "tables": {
+        "IUBLibrary_1": {
+          "DictEstimator": 16,
+          "RleEstimator": 3,
+          "ForEstimator": 3,
+          "NoCompressionEstimator": 5
+        }
+      }
+    },
+    "Hatred": {
+      "tables": {
+        "Hatred_1": {
+          "DictEstimator": 15,
+          "NoCompressionEstimator": 6,
+          "RleEstimator": 5,
+          "ForEstimator": 5
+        }
+      }
+    },
+    "RealEstate2": {
+      "tables": {
+        "RealEstate2_5": {
+          "DictEstimator": 18,
+          "NoCompressionEstimator": 7,
+          "RleEstimator": 1,
+          "ForEstimator": 1
+        },
+        "RealEstate2_7": {
+          "DictEstimator": 18,
+          "NoCompressionEstimator": 7,
+          "RleEstimator": 1,
+          "ForEstimator": 1
+        },
+        "RealEstate2_4": {
+          "DictEstimator": 18,
+          "NoCompressionEstimator": 7,
+          "RleEstimator": 1,
+          "ForEstimator": 1
+        },
+        "RealEstate2_2": {
+          "DictEstimator": 18,
+          "NoCompressionEstimator": 7,
+          "RleEstimator": 1,
+          "ForEstimator": 1
+        },
+        "RealEstate2_1": {
+          "DictEstimator": 18,
+          "NoCompressionEstimator": 7,
+          "RleEstimator": 1,
+          "ForEstimator": 1
+        },
+        "RealEstate2_6": {
+          "DictEstimator": 18,
+          "NoCompressionEstimator": 7,
+          "RleEstimator": 1,
+          "ForEstimator": 1
+        },
+        "RealEstate2_3": {
+          "DictEstimator": 18,
+          "NoCompressionEstimator": 7,
+          "RleEstimator": 1,
+          "ForEstimator": 1
+        }
+      }
+    },
+    "Wins": {
+      "tables": {
+        "Wins_4": {
+          "RleEstimator": 538,
+          "ForEstimator": 43,
+          "DictEstimator": 49,
+          "NoCompressionEstimator": 17
+        },
+        "Wins_2": {
+          "RleEstimator": 524,
+          "ForEstimator": 57,
+          "DictEstimator": 49,
+          "NoCompressionEstimator": 17
+        },
+        "Wins_1": {
+          "DictEstimator": 20,
+          "RleEstimator": 104,
+          "ForEstimator": 108,
+          "NoCompressionEstimator": 25
+        },
+        "Wins_3": {
+          "RleEstimator": 534,
+          "ForEstimator": 47,
+          "DictEstimator": 49,
+          "NoCompressionEstimator": 17
+        }
+      }
+    },
+    "Romance": {
+      "tables": {
+        "Romance_2": {
+          "ForEstimator": 1,
+          "RleEstimator": 4,
+          "DictEstimator": 3,
+          "NoCompressionEstimator": 4
+        },
+        "Romance_1": {
+          "ForEstimator": 1,
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 4,
+          "DictEstimator": 3
+        }
+      }
+    },
+    "Medicare2": {
+      "tables": {
+        "Medicare2_2": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        },
+        "Medicare2_1": {
+          "RleEstimator": 6,
+          "NoCompressionEstimator": 4,
+          "ForEstimator": 3,
+          "DictEstimator": 15
+        }
+      }
+    },
+    "Redfin3": {
+      "tables": {
+        "Redfin3_2": {
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 32,
+          "DictEstimator": 6,
+          "ForEstimator": 5
+        },
+        "Redfin3_1": {
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 32,
+          "DictEstimator": 6,
+          "ForEstimator": 5
+        }
+      }
+    },
+    "Euro2016": {
+      "tables": {
+        "Euro2016_1": {
+          "RleEstimator": 2,
+          "ForEstimator": 1,
+          "DictEstimator": 4,
+          "NoCompressionEstimator": 4
+        }
+      }
+    },
+    "Food": {
+      "tables": {
+        "Food_1": {
+          "RleEstimator": 2,
+          "ForEstimator": 1,
+          "DictEstimator": 2,
+          "NoCompressionEstimator": 1
+        }
+      }
+    },
+    "IGlocations2": {
+      "tables": {
+        "IGlocations2_2": {
+          "RleEstimator": 5,
+          "DictEstimator": 10,
+          "NoCompressionEstimator": 3,
+          "ForEstimator": 2
+        },
+        "IGlocations2_1": {
+          "RleEstimator": 5,
+          "DictEstimator": 10,
+          "NoCompressionEstimator": 3,
+          "ForEstimator": 2
+        }
+      }
+    },
+    "Bimbo": {
+      "tables": {
+        "Bimbo_1": {
+          "RleEstimator": 8,
+          "ForEstimator": 3,
+          "NoCompressionEstimator": 1
+        }
+      }
+    },
+    "MedPayment1": {
+      "tables": {
+        "MedPayment1_1": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 2,
+          "DictEstimator": 16
+        }
+      }
+    },
+    "Arade": {
+      "tables": {
+        "Arade_1": {
+          "DictEstimator": 2,
+          "NoCompressionEstimator": 3,
+          "RleEstimator": 5,
+          "ForEstimator": 1
+        }
+      }
+    },
+    "Medicare1": {
+      "tables": {
+        "Medicare1_1": {
+          "ForEstimator": 8,
+          "DictEstimator": 10,
+          "NoCompressionEstimator": 6,
+          "RleEstimator": 2
+        },
+        "Medicare1_2": {
+          "ForEstimator": 8,
+          "DictEstimator": 10,
+          "NoCompressionEstimator": 6,
+          "RleEstimator": 2
+        }
+      }
+    },
+    "SalariesFrance": {
+      "tables": {
+        "SalariesFrance_7": {
+          "DictEstimator": 21,
+          "NoCompressionEstimator": 16,
+          "RleEstimator": 20
+        },
+        "SalariesFrance_5": {
+          "DictEstimator": 21,
+          "NoCompressionEstimator": 15,
+          "RleEstimator": 21
+        },
+        "SalariesFrance_12": {
+          "DictEstimator": 21,
+          "NoCompressionEstimator": 15,
+          "RleEstimator": 19,
+          "ForEstimator": 2
+        },
+        "SalariesFrance_13": {
+          "DictEstimator": 21,
+          "NoCompressionEstimator": 15,
+          "RleEstimator": 20,
+          "ForEstimator": 1
+        },
+        "SalariesFrance_9": {
+          "DictEstimator": 21,
+          "NoCompressionEstimator": 16,
+          "RleEstimator": 19,
+          "ForEstimator": 1
+        },
+        "SalariesFrance_11": {
+          "DictEstimator": 21,
+          "NoCompressionEstimator": 15,
+          "RleEstimator": 20,
+          "ForEstimator": 1
+        },
+        "SalariesFrance_1": {
+          "DictEstimator": 21,
+          "NoCompressionEstimator": 16,
+          "RleEstimator": 19,
+          "ForEstimator": 1
+        },
+        "SalariesFrance_8": {
+          "DictEstimator": 21,
+          "NoCompressionEstimator": 15,
+          "RleEstimator": 19,
+          "ForEstimator": 2
+        },
+        "SalariesFrance_4": {
+          "DictEstimator": 21,
+          "NoCompressionEstimator": 16,
+          "RleEstimator": 20
+        },
+        "SalariesFrance_6": {
+          "DictEstimator": 21,
+          "NoCompressionEstimator": 16,
+          "RleEstimator": 20
+        },
+        "SalariesFrance_2": {
+          "DictEstimator": 8,
+          "RleEstimator": 3
+        },
+        "SalariesFrance_3": {
+          "DictEstimator": 21,
+          "NoCompressionEstimator": 15,
+          "RleEstimator": 19,
+          "ForEstimator": 2
+        },
+        "SalariesFrance_10": {
+          "DictEstimator": 21,
+          "NoCompressionEstimator": 15,
+          "RleEstimator": 20,
+          "ForEstimator": 1
+        }
+      }
+    },
+    "Telco": {
+      "tables": {
+        "Telco_1": {
+          "NoCompressionEstimator": 81,
+          "ForEstimator": 14,
+          "RleEstimator": 85,
+          "DictEstimator": 1
+        }
+      }
+    },
+    "USCensus": {
+      "tables": {
+        "USCensus_3": {
+          "RleEstimator": 231,
+          "ForEstimator": 259,
+          "NoCompressionEstimator": 23,
+          "DictEstimator": 6
+        },
+        "USCensus_1": {
+          "RleEstimator": 225,
+          "ForEstimator": 261,
+          "NoCompressionEstimator": 27,
+          "DictEstimator": 6
+        },
+        "USCensus_2": {
+          "RleEstimator": 243,
+          "ForEstimator": 249,
+          "NoCompressionEstimator": 21,
+          "DictEstimator": 6
+        }
+      }
+    },
+    "PanCreactomy2": {
+      "tables": {
+        "PanCreactomy2_1": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "ForEstimator": 2,
+          "DictEstimator": 17
+        },
+        "PanCreactomy2_2": {
+          "RleEstimator": 6,
+          "NoCompressionEstimator": 4,
+          "ForEstimator": 2,
+          "DictEstimator": 17
+        }
+      }
+    },
+    "CMSprovider": {
+      "tables": {
+        "CMSprovider_2": {
+          "RleEstimator": 6,
+          "NoCompressionEstimator": 4,
+          "ForEstimator": 2,
+          "DictEstimator": 14
+        },
+        "CMSprovider_1": {
+          "RleEstimator": 6,
+          "NoCompressionEstimator": 4,
+          "ForEstimator": 2,
+          "DictEstimator": 14
+        }
+      }
+    },
+    "MulheresMil": {
+      "tables": {
+        "MulheresMil_1": {
+          "DictEstimator": 56,
+          "NoCompressionEstimator": 13,
+          "RleEstimator": 11,
+          "ForEstimator": 1
+        }
+      }
+    },
+    "Generico": {
+      "tables": {
+        "Generico_1": {
+          "DictEstimator": 24,
+          "RleEstimator": 13,
+          "ForEstimator": 3,
+          "NoCompressionEstimator": 3
+        },
+        "Generico_4": {
+          "DictEstimator": 24,
+          "RleEstimator": 13,
+          "ForEstimator": 3,
+          "NoCompressionEstimator": 3
+        },
+        "Generico_3": {
+          "DictEstimator": 24,
+          "RleEstimator": 13,
+          "ForEstimator": 3,
+          "NoCompressionEstimator": 3
+        },
+        "Generico_2": {
+          "DictEstimator": 24,
+          "RleEstimator": 13,
+          "ForEstimator": 3,
+          "NoCompressionEstimator": 3
+        },
+        "Generico_5": {
+          "DictEstimator": 24,
+          "RleEstimator": 13,
+          "ForEstimator": 3,
+          "NoCompressionEstimator": 3
+        }
+      }
+    },
+    "Redfin2": {
+      "tables": {
+        "Redfin2_2": {
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 30,
+          "DictEstimator": 6,
+          "ForEstimator": 4
+        },
+        "Redfin2_1": {
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 30,
+          "DictEstimator": 6,
+          "ForEstimator": 4
+        },
+        "Redfin2_3": {
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 30,
+          "DictEstimator": 6,
+          "ForEstimator": 4
+        }
+      }
+    },
+    "HashTags": {
+      "tables": {
+        "HashTags_1": {
+          "RleEstimator": 43,
+          "DictEstimator": 39,
+          "NoCompressionEstimator": 17,
+          "ForEstimator": 2
+        }
+      }
+    },
+    "TableroSistemaPenal": {
+      "tables": {
+        "TableroSistemaPenal_4": {
+          "DictEstimator": 6,
+          "RleEstimator": 7,
+          "ForEstimator": 2,
+          "NoCompressionEstimator": 6
+        },
+        "TableroSistemaPenal_5": {
+          "DictEstimator": 6,
+          "RleEstimator": 7,
+          "ForEstimator": 2,
+          "NoCompressionEstimator": 6
+        },
+        "TableroSistemaPenal_6": {
+          "DictEstimator": 6,
+          "ForEstimator": 2,
+          "NoCompressionEstimator": 3,
+          "RleEstimator": 2
+        },
+        "TableroSistemaPenal_8": {
+          "DictEstimator": 14,
+          "NoCompressionEstimator": 3,
+          "ForEstimator": 2,
+          "RleEstimator": 3
+        },
+        "TableroSistemaPenal_1": {
+          "DictEstimator": 19,
+          "RleEstimator": 7,
+          "NoCompressionEstimator": 1
+        },
+        "TableroSistemaPenal_3": {
+          "DictEstimator": 6,
+          "RleEstimator": 7,
+          "ForEstimator": 2,
+          "NoCompressionEstimator": 6
+        },
+        "TableroSistemaPenal_2": {
+          "DictEstimator": 14,
+          "RleEstimator": 6,
+          "ForEstimator": 1,
+          "NoCompressionEstimator": 1
+        },
+        "TableroSistemaPenal_7": {
+          "DictEstimator": 19,
+          "RleEstimator": 7,
+          "NoCompressionEstimator": 1
+        }
+      }
+    },
+    "Physicians": {
+      "tables": {
+        "Physicians_1": {
+          "RleEstimator": 6,
+          "NoCompressionEstimator": 4,
+          "ForEstimator": 2,
+          "DictEstimator": 16
+        }
+      }
+    },
+    "MLB": {
+      "tables": {
+        "MLB_14": {
+          "ForEstimator": 19,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 15,
+          "DictEstimator": 6
+        },
+        "MLB_60": {
+          "ForEstimator": 51,
+          "NoCompressionEstimator": 10,
+          "RleEstimator": 4,
+          "DictEstimator": 4
+        },
+        "MLB_62": {
+          "ForEstimator": 51,
+          "NoCompressionEstimator": 10,
+          "RleEstimator": 4,
+          "DictEstimator": 4
+        },
+        "MLB_50": {
+          "ForEstimator": 41,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 6,
+          "DictEstimator": 6
+        },
+        "MLB_20": {
+          "ForEstimator": 39,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 10,
+          "DictEstimator": 4
+        },
+        "MLB_55": {
+          "ForEstimator": 46,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 7,
+          "DictEstimator": 5
+        },
+        "MLB_43": {
+          "ForEstimator": 18,
+          "NoCompressionEstimator": 10,
+          "RleEstimator": 25,
+          "DictEstimator": 5
+        },
+        "MLB_25": {
+          "ForEstimator": 34,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 14,
+          "DictEstimator": 5
+        },
+        "MLB_65": {
+          "ForEstimator": 29,
+          "RleEstimator": 23,
+          "NoCompressionEstimator": 7,
+          "DictEstimator": 13
+        },
+        "MLB_53": {
+          "ForEstimator": 46,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 7,
+          "DictEstimator": 5
+        },
+        "MLB_59": {
+          "ForEstimator": 51,
+          "NoCompressionEstimator": 10,
+          "RleEstimator": 4,
+          "DictEstimator": 4
+        },
+        "MLB_29": {
+          "ForEstimator": 34,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 14,
+          "DictEstimator": 5
+        },
+        "MLB_32": {
+          "ForEstimator": 41,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 8,
+          "DictEstimator": 4
+        },
+        "MLB_30": {
+          "ForEstimator": 34,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 14,
+          "DictEstimator": 5
+        },
+        "MLB_27": {
+          "ForEstimator": 32,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 16,
+          "DictEstimator": 5
+        },
+        "MLB_61": {
+          "ForEstimator": 51,
+          "NoCompressionEstimator": 10,
+          "RleEstimator": 4,
+          "DictEstimator": 4
+        },
+        "MLB_42": {
+          "ForEstimator": 18,
+          "NoCompressionEstimator": 10,
+          "RleEstimator": 25,
+          "DictEstimator": 5
+        },
+        "MLB_56": {
+          "ForEstimator": 46,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 7,
+          "DictEstimator": 5
+        },
+        "MLB_48": {
+          "ForEstimator": 47,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 5,
+          "DictEstimator": 5
+        },
+        "MLB_51": {
+          "ForEstimator": 41,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 6,
+          "DictEstimator": 6
+        },
+        "MLB_33": {
+          "ForEstimator": 41,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 8,
+          "DictEstimator": 4
+        },
+        "MLB_41": {
+          "ForEstimator": 18,
+          "NoCompressionEstimator": 10,
+          "RleEstimator": 25,
+          "DictEstimator": 5
+        },
+        "MLB_10": {
+          "ForEstimator": 14,
+          "NoCompressionEstimator": 7,
+          "RleEstimator": 14,
+          "DictEstimator": 5
+        },
+        "MLB_68": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 6,
+          "DictEstimator": 14,
+          "ForEstimator": 4
+        },
+        "MLB_13": {
+          "ForEstimator": 19,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 15,
+          "DictEstimator": 6
+        },
+        "MLB_12": {
+          "ForEstimator": 19,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 15,
+          "DictEstimator": 6
+        },
+        "MLB_40": {
+          "ForEstimator": 16,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 20,
+          "DictEstimator": 5
+        },
+        "MLB_39": {
+          "ForEstimator": 15,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 21,
+          "DictEstimator": 5
+        },
+        "MLB_11": {
+          "ForEstimator": 14,
+          "NoCompressionEstimator": 7,
+          "RleEstimator": 14,
+          "DictEstimator": 5
+        },
+        "MLB_45": {
+          "ForEstimator": 47,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 5,
+          "DictEstimator": 5
+        },
+        "MLB_9": {
+          "ForEstimator": 14,
+          "NoCompressionEstimator": 7,
+          "RleEstimator": 14,
+          "DictEstimator": 5
+        },
+        "MLB_66": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 5,
+          "DictEstimator": 16,
+          "ForEstimator": 4
+        },
+        "MLB_31": {
+          "ForEstimator": 41,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 8,
+          "DictEstimator": 4
+        },
+        "MLB_22": {
+          "ForEstimator": 35,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 14,
+          "DictEstimator": 4
+        },
+        "MLB_64": {
+          "ForEstimator": 26,
+          "RleEstimator": 26,
+          "NoCompressionEstimator": 7,
+          "DictEstimator": 13
+        },
+        "MLB_6": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 6,
+          "DictEstimator": 14,
+          "ForEstimator": 4
+        },
+        "MLB_67": {
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 5,
+          "DictEstimator": 13,
+          "ForEstimator": 2
+        },
+        "MLB_44": {
+          "ForEstimator": 18,
+          "NoCompressionEstimator": 10,
+          "RleEstimator": 25,
+          "DictEstimator": 5
+        },
+        "MLB_3": {
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 5,
+          "DictEstimator": 13,
+          "ForEstimator": 2
+        },
+        "MLB_35": {
+          "ForEstimator": 41,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 8,
+          "DictEstimator": 4
+        },
+        "MLB_38": {
+          "ForEstimator": 16,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 20,
+          "DictEstimator": 5
+        },
+        "MLB_17": {
+          "ForEstimator": 38,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 14,
+          "DictEstimator": 7
+        },
+        "MLB_28": {
+          "ForEstimator": 33,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 15,
+          "DictEstimator": 5
+        },
+        "MLB_37": {
+          "ForEstimator": 41,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 8,
+          "DictEstimator": 4
+        },
+        "MLB_47": {
+          "ForEstimator": 47,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 5,
+          "DictEstimator": 5
+        },
+        "MLB_26": {
+          "ForEstimator": 33,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 15,
+          "DictEstimator": 5
+        },
+        "MLB_18": {
+          "ForEstimator": 39,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 13,
+          "DictEstimator": 7
+        },
+        "MLB_49": {
+          "ForEstimator": 41,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 6,
+          "DictEstimator": 6
+        },
+        "MLB_63": {
+          "ForEstimator": 26,
+          "RleEstimator": 26,
+          "NoCompressionEstimator": 7,
+          "DictEstimator": 13
+        },
+        "MLB_46": {
+          "ForEstimator": 47,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 5,
+          "DictEstimator": 5
+        },
+        "MLB_34": {
+          "ForEstimator": 41,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 8,
+          "DictEstimator": 4
+        },
+        "MLB_23": {
+          "ForEstimator": 35,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 14,
+          "DictEstimator": 4
+        },
+        "MLB_52": {
+          "NoCompressionEstimator": 11,
+          "RleEstimator": 2,
+          "DictEstimator": 3
+        },
+        "MLB_58": {
+          "ForEstimator": 51,
+          "NoCompressionEstimator": 10,
+          "RleEstimator": 4,
+          "DictEstimator": 4
+        },
+        "MLB_7": {
+          "ForEstimator": 14,
+          "NoCompressionEstimator": 7,
+          "RleEstimator": 14,
+          "DictEstimator": 5
+        },
+        "MLB_36": {
+          "ForEstimator": 41,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 8,
+          "DictEstimator": 4
+        },
+        "MLB_21": {
+          "ForEstimator": 40,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 9,
+          "DictEstimator": 4
+        },
+        "MLB_8": {
+          "ForEstimator": 14,
+          "NoCompressionEstimator": 7,
+          "RleEstimator": 14,
+          "DictEstimator": 5
+        },
+        "MLB_1": {
+          "ForEstimator": 19,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 15,
+          "DictEstimator": 6
+        },
+        "MLB_2": {
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 5,
+          "DictEstimator": 13,
+          "ForEstimator": 2
+        },
+        "MLB_4": {
+          "RleEstimator": 4,
+          "NoCompressionEstimator": 5,
+          "DictEstimator": 13,
+          "ForEstimator": 2
+        },
+        "MLB_5": {
+          "RleEstimator": 5,
+          "NoCompressionEstimator": 6,
+          "DictEstimator": 14,
+          "ForEstimator": 4
+        },
+        "MLB_54": {
+          "ForEstimator": 47,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 6,
+          "DictEstimator": 5
+        },
+        "MLB_15": {
+          "ForEstimator": 38,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 14,
+          "DictEstimator": 7
+        },
+        "MLB_19": {
+          "ForEstimator": 41,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 8,
+          "DictEstimator": 4
+        },
+        "MLB_16": {
+          "ForEstimator": 38,
+          "NoCompressionEstimator": 9,
+          "RleEstimator": 14,
+          "DictEstimator": 7
+        },
+        "MLB_24": {
+          "ForEstimator": 35,
+          "NoCompressionEstimator": 8,
+          "RleEstimator": 14,
+          "DictEstimator": 4
+        }
+      }
+    },
+    "TrainsUK2": {
+      "tables": {
+        "TrainsUK2_1": {
+          "NoCompressionEstimator": 12,
+          "DictEstimator": 11,
+          "RleEstimator": 9,
+          "ForEstimator": 5
+        },
+        "TrainsUK2_2": {
+          "NoCompressionEstimator": 13,
+          "DictEstimator": 11,
+          "RleEstimator": 8,
+          "ForEstimator": 5
+        }
+      }
+    },
+    "Motos": {
+      "tables": {
+        "Motos_1": {
+          "DictEstimator": 25,
+          "RleEstimator": 12,
+          "ForEstimator": 4,
+          "NoCompressionEstimator": 3
+        },
+        "Motos_2": {
+          "DictEstimator": 25,
+          "RleEstimator": 12,
+          "ForEstimator": 4,
+          "NoCompressionEstimator": 3
+        }
+      }
+    }
+  },
+  "table_count": 204,
+  "compression_methods": {
+    "total": {
+      "RleEstimator": 4916,
+      "NoCompressionEstimator": 1981,
+      "ForEstimator": 3304,
+      "DictEstimator": 3168
+    },
+    "table_average": {
+      "RleEstimator": 24.098039215686274,
+      "NoCompressionEstimator": 9.71078431372549,
+      "ForEstimator": 16.19607843137255,
+      "DictEstimator": 15.529411764705882
+    }
+  }
+}
