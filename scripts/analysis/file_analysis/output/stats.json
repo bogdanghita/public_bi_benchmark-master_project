@@ -1,24 +1,25 @@
 {
   "workbooks": {
-    "AirlineSentiment": {
+    "Medicare3": {
       "tables": {
-        "AirlineSentiment_1": 75
+        "Medicare3_1": 9287877
       }
     },
-    "Arade": {
+    "Redfin1": {
       "tables": {
-        "Arade_1": 9888775
+        "Redfin1_3": 3030055,
+        "Redfin1_2": 3030055,
+        "Redfin1_4": 3030055,
+        "Redfin1_1": 3030055
       }
     },
-    "Bimbo": {
+    "YaleLanguages": {
       "tables": {
-        "Bimbo_1": 74180464
-      }
-    },
-    "CMSprovider": {
-      "tables": {
-        "CMSprovider_1": 9287877,
-        "CMSprovider_2": 9287877
+        "YaleLanguages_5": 1279378,
+        "YaleLanguages_3": 1393580,
+        "YaleLanguages_1": 904873,
+        "YaleLanguages_4": 1279378,
+        "YaleLanguages_2": 904873
       }
     },
     "CityMaxCapita": {
@@ -26,21 +27,40 @@
         "CityMaxCapita_1": 912657
       }
     },
+    "AirlineSentiment": {
+      "tables": {
+        "AirlineSentiment_1": 75
+      }
+    },
+    "Taxpayer": {
+      "tables": {
+        "Taxpayer_6": 9153273,
+        "Taxpayer_10": 9153273,
+        "Taxpayer_2": 9153273,
+        "Taxpayer_7": 9153273,
+        "Taxpayer_5": 9153273,
+        "Taxpayer_9": 9153273,
+        "Taxpayer_3": 9153273,
+        "Taxpayer_8": 9153273,
+        "Taxpayer_4": 9153273,
+        "Taxpayer_1": 9153273
+      }
+    },
     "CommonGovernment": {
       "tables": {
-        "CommonGovernment_1": 11387079,
-        "CommonGovernment_2": 11387079,
-        "CommonGovernment_10": 10712327,
-        "CommonGovernment_11": 10673973,
-        "CommonGovernment_12": 10584929,
-        "CommonGovernment_13": 10621625,
-        "CommonGovernment_3": 11387079,
-        "CommonGovernment_4": 11135578,
-        "CommonGovernment_5": 10614645,
         "CommonGovernment_6": 10732842,
-        "CommonGovernment_7": 10590308,
         "CommonGovernment_8": 10583606,
-        "CommonGovernment_9": 10712757
+        "CommonGovernment_7": 10590308,
+        "CommonGovernment_4": 11135578,
+        "CommonGovernment_3": 11387079,
+        "CommonGovernment_13": 10621625,
+        "CommonGovernment_9": 10712757,
+        "CommonGovernment_12": 10584929,
+        "CommonGovernment_5": 10614645,
+        "CommonGovernment_2": 11387079,
+        "CommonGovernment_11": 10673973,
+        "CommonGovernment_1": 11387079,
+        "CommonGovernment_10": 10712327
       }
     },
     "Corporations": {
@@ -48,9 +68,131 @@
         "Corporations_1": 741723
       }
     },
+    "Uberlandia": {
+      "tables": {
+        "Uberlandia_1": 7559227
+      }
+    },
+    "MedPayment2": {
+      "tables": {
+        "MedPayment2_1": 9153273
+      }
+    },
+    "Test": {
+      "tables": {
+        "Test_1": 20
+      }
+    },
     "Eixo": {
       "tables": {
         "Eixo_1": 7559227
+      }
+    },
+    "Redfin4": {
+      "tables": {
+        "Redfin4_1": 3267279
+      }
+    },
+    "NYC": {
+      "tables": {
+        "NYC_2": 9618625,
+        "NYC_1": 9624351
+      }
+    },
+    "TrainsUK1": {
+      "tables": {
+        "TrainsUK1_4": 4303241,
+        "TrainsUK1_1": 1,
+        "TrainsUK1_2": 4303241,
+        "TrainsUK1_3": 4303241
+      }
+    },
+    "RealEstate1": {
+      "tables": {
+        "RealEstate1_2": 19531359,
+        "RealEstate1_1": 19531359
+      }
+    },
+    "Rentabilidad": {
+      "tables": {
+        "Rentabilidad_9": 399545,
+        "Rentabilidad_1": 399545,
+        "Rentabilidad_5": 399545,
+        "Rentabilidad_3": 399545,
+        "Rentabilidad_4": 399545,
+        "Rentabilidad_7": 399545,
+        "Rentabilidad_6": 399545,
+        "Rentabilidad_8": 399545,
+        "Rentabilidad_2": 399545
+      }
+    },
+    "Provider": {
+      "tables": {
+        "Provider_2": 9153273,
+        "Provider_7": 9153273,
+        "Provider_6": 9153273,
+        "Provider_4": 9153273,
+        "Provider_8": 9153273,
+        "Provider_3": 9153273,
+        "Provider_1": 9153273,
+        "Provider_5": 9153273
+      }
+    },
+    "IGlocations1": {
+      "tables": {
+        "IGlocations1_1": 81611
+      }
+    },
+    "PanCreactomy1": {
+      "tables": {
+        "PanCreactomy1_1": 9153273
+      }
+    },
+    "IUBLibrary": {
+      "tables": {
+        "IUBLibrary_1": 1795
+      }
+    },
+    "Hatred": {
+      "tables": {
+        "Hatred_1": 873166
+      }
+    },
+    "RealEstate2": {
+      "tables": {
+        "RealEstate2_5": 9487983,
+        "RealEstate2_7": 9487983,
+        "RealEstate2_4": 9487983,
+        "RealEstate2_2": 9487983,
+        "RealEstate2_1": 9487983,
+        "RealEstate2_6": 9487983,
+        "RealEstate2_3": 9487983
+      }
+    },
+    "Wins": {
+      "tables": {
+        "Wins_4": 519794,
+        "Wins_2": 519794,
+        "Wins_1": 556067,
+        "Wins_3": 519794
+      }
+    },
+    "Romance": {
+      "tables": {
+        "Romance_2": 1586588,
+        "Romance_1": 1586588
+      }
+    },
+    "Medicare2": {
+      "tables": {
+        "Medicare2_2": 9153273,
+        "Medicare2_1": 9153273
+      }
+    },
+    "Redfin3": {
+      "tables": {
+        "Redfin3_2": 3267279,
+        "Redfin3_1": 3267279
       }
     },
     "Euro2016": {
@@ -63,111 +205,15 @@
         "Food_1": 5216593
       }
     },
-    "Generico": {
-      "tables": {
-        "Generico_1": 20660895,
-        "Generico_2": 23365928,
-        "Generico_3": 23365928,
-        "Generico_4": 23365928,
-        "Generico_5": 23365928
-      }
-    },
-    "HashTags": {
-      "tables": {
-        "HashTags_1": 511511
-      }
-    },
-    "Hatred": {
-      "tables": {
-        "Hatred_1": 873166
-      }
-    },
-    "IGlocations1": {
-      "tables": {
-        "IGlocations1_1": 81611
-      }
-    },
     "IGlocations2": {
       "tables": {
-        "IGlocations2_1": 2170654,
-        "IGlocations2_2": 2170654
+        "IGlocations2_2": 2170654,
+        "IGlocations2_1": 2170654
       }
     },
-    "IUBLibrary": {
+    "Bimbo": {
       "tables": {
-        "IUBLibrary_1": 1795
-      }
-    },
-    "MLB": {
-      "tables": {
-        "MLB_10": 186593,
-        "MLB_11": 186593,
-        "MLB_12": 78315,
-        "MLB_13": 78315,
-        "MLB_14": 78315,
-        "MLB_15": 173622,
-        "MLB_16": 173622,
-        "MLB_17": 173622,
-        "MLB_18": 173622,
-        "MLB_19": 79182,
-        "MLB_1": 78315,
-        "MLB_20": 79182,
-        "MLB_21": 79182,
-        "MLB_22": 246143,
-        "MLB_23": 246143,
-        "MLB_24": 246143,
-        "MLB_25": 169606,
-        "MLB_26": 169606,
-        "MLB_27": 169606,
-        "MLB_28": 169606,
-        "MLB_29": 169606,
-        "MLB_2": 2918552,
-        "MLB_30": 169606,
-        "MLB_31": 73916,
-        "MLB_32": 73916,
-        "MLB_33": 73916,
-        "MLB_34": 73916,
-        "MLB_35": 73916,
-        "MLB_36": 73916,
-        "MLB_37": 73916,
-        "MLB_38": 204068,
-        "MLB_39": 204068,
-        "MLB_3": 2918552,
-        "MLB_40": 204068,
-        "MLB_41": 90051,
-        "MLB_42": 90051,
-        "MLB_43": 90051,
-        "MLB_44": 90051,
-        "MLB_45": 46658,
-        "MLB_46": 46658,
-        "MLB_47": 46658,
-        "MLB_48": 46658,
-        "MLB_49": 49330,
-        "MLB_4": 2918552,
-        "MLB_50": 49330,
-        "MLB_51": 49330,
-        "MLB_52": 416,
-        "MLB_53": 78423,
-        "MLB_54": 78423,
-        "MLB_55": 78423,
-        "MLB_56": 78423,
-        "MLB_57": 80,
-        "MLB_58": 24799,
-        "MLB_59": 24799,
-        "MLB_5": 2918552,
-        "MLB_60": 24799,
-        "MLB_61": 24799,
-        "MLB_62": 24799,
-        "MLB_63": 1001655,
-        "MLB_64": 1001655,
-        "MLB_65": 1001655,
-        "MLB_66": 2840785,
-        "MLB_67": 2918552,
-        "MLB_68": 2918552,
-        "MLB_6": 2918552,
-        "MLB_7": 186593,
-        "MLB_8": 186593,
-        "MLB_9": 186593
+        "Bimbo_1": 74180464
       }
     },
     "MedPayment1": {
@@ -175,9 +221,9 @@
         "MedPayment1_1": 9153273
       }
     },
-    "MedPayment2": {
+    "Arade": {
       "tables": {
-        "MedPayment2_1": 9153273
+        "Arade_1": 9888775
       }
     },
     "Medicare1": {
@@ -186,37 +232,33 @@
         "Medicare1_2": 8645072
       }
     },
-    "Medicare2": {
+    "SalariesFrance": {
       "tables": {
-        "Medicare2_1": 9153273,
-        "Medicare2_2": 9153273
+        "SalariesFrance_7": 1343758,
+        "SalariesFrance_5": 1343758,
+        "SalariesFrance_12": 1343758,
+        "SalariesFrance_13": 1343758,
+        "SalariesFrance_9": 1343758,
+        "SalariesFrance_11": 1343758,
+        "SalariesFrance_1": 1343758,
+        "SalariesFrance_8": 1343758,
+        "SalariesFrance_4": 1343758,
+        "SalariesFrance_6": 1343758,
+        "SalariesFrance_2": 98781,
+        "SalariesFrance_3": 1343758,
+        "SalariesFrance_10": 1343758
       }
     },
-    "Medicare3": {
+    "Telco": {
       "tables": {
-        "Medicare3_1": 9287877
+        "Telco_1": 2913060
       }
     },
-    "Motos": {
+    "USCensus": {
       "tables": {
-        "Motos_1": 14107171,
-        "Motos_2": 14257190
-      }
-    },
-    "MulheresMil": {
-      "tables": {
-        "MulheresMil_1": 7561432
-      }
-    },
-    "NYC": {
-      "tables": {
-        "NYC_1": 9624351,
-        "NYC_2": 9618625
-      }
-    },
-    "PanCreactomy1": {
-      "tables": {
-        "PanCreactomy1_1": 9153273
+        "USCensus_3": 3132795,
+        "USCensus_1": 3132795,
+        "USCensus_2": 3132795
       }
     },
     "PanCreactomy2": {
@@ -225,139 +267,125 @@
         "PanCreactomy2_2": 9153273
       }
     },
+    "CMSprovider": {
+      "tables": {
+        "CMSprovider_2": 9287877,
+        "CMSprovider_1": 9287877
+      }
+    },
+    "MulheresMil": {
+      "tables": {
+        "MulheresMil_1": 7561432
+      }
+    },
+    "Generico": {
+      "tables": {
+        "Generico_1": 20660895,
+        "Generico_4": 23365928,
+        "Generico_3": 23365928,
+        "Generico_2": 23365928,
+        "Generico_5": 23365928
+      }
+    },
+    "Redfin2": {
+      "tables": {
+        "Redfin2_2": 3030055,
+        "Redfin2_1": 3030055,
+        "Redfin2_3": 3030055
+      }
+    },
+    "HashTags": {
+      "tables": {
+        "HashTags_1": 511511
+      }
+    },
+    "TableroSistemaPenal": {
+      "tables": {
+        "TableroSistemaPenal_4": 2974820,
+        "TableroSistemaPenal_5": 2974820,
+        "TableroSistemaPenal_6": 6521516,
+        "TableroSistemaPenal_8": 1804269,
+        "TableroSistemaPenal_1": 2246539,
+        "TableroSistemaPenal_3": 2974820,
+        "TableroSistemaPenal_2": 3531593,
+        "TableroSistemaPenal_7": 2246539
+      }
+    },
     "Physicians": {
       "tables": {
         "Physicians_1": 9153273
       }
     },
-    "Provider": {
+    "MLB": {
       "tables": {
-        "Provider_1": 9153273,
-        "Provider_2": 9153273,
-        "Provider_3": 9153273,
-        "Provider_4": 9153273,
-        "Provider_5": 9153273,
-        "Provider_6": 9153273,
-        "Provider_7": 9153273,
-        "Provider_8": 9153273
-      }
-    },
-    "RealEstate1": {
-      "tables": {
-        "RealEstate1_1": 19531359,
-        "RealEstate1_2": 19531359
-      }
-    },
-    "RealEstate2": {
-      "tables": {
-        "RealEstate2_1": 9487983,
-        "RealEstate2_2": 9487983,
-        "RealEstate2_3": 9487983,
-        "RealEstate2_4": 9487983,
-        "RealEstate2_5": 9487983,
-        "RealEstate2_6": 9487983,
-        "RealEstate2_7": 9487983
-      }
-    },
-    "Redfin1": {
-      "tables": {
-        "Redfin1_1": 3030055,
-        "Redfin1_2": 3030055,
-        "Redfin1_3": 3030055,
-        "Redfin1_4": 3030055
-      }
-    },
-    "Redfin2": {
-      "tables": {
-        "Redfin2_1": 3030055,
-        "Redfin2_2": 3030055,
-        "Redfin2_3": 3030055
-      }
-    },
-    "Redfin3": {
-      "tables": {
-        "Redfin3_1": 3267279,
-        "Redfin3_2": 3267279
-      }
-    },
-    "Redfin4": {
-      "tables": {
-        "Redfin4_1": 3267279
-      }
-    },
-    "Rentabilidad": {
-      "tables": {
-        "Rentabilidad_1": 399545,
-        "Rentabilidad_2": 399545,
-        "Rentabilidad_3": 399545,
-        "Rentabilidad_4": 399545,
-        "Rentabilidad_5": 399545,
-        "Rentabilidad_6": 399545,
-        "Rentabilidad_7": 399545,
-        "Rentabilidad_8": 399545,
-        "Rentabilidad_9": 399545
-      }
-    },
-    "Romance": {
-      "tables": {
-        "Romance_1": 1586588,
-        "Romance_2": 1586588
-      }
-    },
-    "SalariesFrance": {
-      "tables": {
-        "SalariesFrance_10": 1343758,
-        "SalariesFrance_11": 1343758,
-        "SalariesFrance_12": 1343758,
-        "SalariesFrance_13": 1343758,
-        "SalariesFrance_1": 1343758,
-        "SalariesFrance_2": 98781,
-        "SalariesFrance_3": 1343758,
-        "SalariesFrance_4": 1343758,
-        "SalariesFrance_5": 1343758,
-        "SalariesFrance_6": 1343758,
-        "SalariesFrance_7": 1343758,
-        "SalariesFrance_8": 1343758,
-        "SalariesFrance_9": 1343758
-      }
-    },
-    "TableroSistemaPenal": {
-      "tables": {
-        "TableroSistemaPenal_1": 2246539,
-        "TableroSistemaPenal_2": 3531593,
-        "TableroSistemaPenal_3": 2974820,
-        "TableroSistemaPenal_4": 2974820,
-        "TableroSistemaPenal_5": 2974820,
-        "TableroSistemaPenal_6": 6521516,
-        "TableroSistemaPenal_7": 2246539,
-        "TableroSistemaPenal_8": 1804269
-      }
-    },
-    "Taxpayer": {
-      "tables": {
-        "Taxpayer_1": 9153273,
-        "Taxpayer_10": 9153273,
-        "Taxpayer_2": 9153273,
-        "Taxpayer_3": 9153273,
-        "Taxpayer_4": 9153273,
-        "Taxpayer_5": 9153273,
-        "Taxpayer_6": 9153273,
-        "Taxpayer_7": 9153273,
-        "Taxpayer_8": 9153273,
-        "Taxpayer_9": 9153273
-      }
-    },
-    "Telco": {
-      "tables": {
-        "Telco_1": 2913060
-      }
-    },
-    "TrainsUK1": {
-      "tables": {
-        "TrainsUK1_1": 1,
-        "TrainsUK1_2": 4303241,
-        "TrainsUK1_3": 4303241,
-        "TrainsUK1_4": 4303241
+        "MLB_14": 78315,
+        "MLB_60": 24799,
+        "MLB_62": 24799,
+        "MLB_50": 49330,
+        "MLB_20": 79182,
+        "MLB_55": 78423,
+        "MLB_43": 90051,
+        "MLB_25": 169606,
+        "MLB_65": 1001655,
+        "MLB_53": 78423,
+        "MLB_59": 24799,
+        "MLB_29": 169606,
+        "MLB_32": 73916,
+        "MLB_30": 169606,
+        "MLB_27": 169606,
+        "MLB_61": 24799,
+        "MLB_42": 90051,
+        "MLB_56": 78423,
+        "MLB_48": 46658,
+        "MLB_51": 49330,
+        "MLB_33": 73916,
+        "MLB_57": 80,
+        "MLB_41": 90051,
+        "MLB_10": 186593,
+        "MLB_68": 2918552,
+        "MLB_13": 78315,
+        "MLB_12": 78315,
+        "MLB_40": 204068,
+        "MLB_39": 204068,
+        "MLB_11": 186593,
+        "MLB_45": 46658,
+        "MLB_9": 186593,
+        "MLB_66": 2840785,
+        "MLB_31": 73916,
+        "MLB_22": 246143,
+        "MLB_64": 1001655,
+        "MLB_6": 2918552,
+        "MLB_67": 2918552,
+        "MLB_44": 90051,
+        "MLB_3": 2918552,
+        "MLB_35": 73916,
+        "MLB_38": 204068,
+        "MLB_17": 173622,
+        "MLB_28": 169606,
+        "MLB_37": 73916,
+        "MLB_47": 46658,
+        "MLB_26": 169606,
+        "MLB_18": 173622,
+        "MLB_49": 49330,
+        "MLB_63": 1001655,
+        "MLB_46": 46658,
+        "MLB_34": 73916,
+        "MLB_23": 246143,
+        "MLB_52": 416,
+        "MLB_58": 24799,
+        "MLB_7": 186593,
+        "MLB_36": 73916,
+        "MLB_21": 79182,
+        "MLB_8": 186593,
+        "MLB_1": 78315,
+        "MLB_2": 2918552,
+        "MLB_4": 2918552,
+        "MLB_5": 2918552,
+        "MLB_54": 78423,
+        "MLB_15": 173622,
+        "MLB_19": 79182,
+        "MLB_16": 173622,
+        "MLB_24": 246143
       }
     },
     "TrainsUK2": {
@@ -366,38 +394,10 @@
         "TrainsUK2_2": 15561777
       }
     },
-    "USCensus": {
+    "Motos": {
       "tables": {
-        "USCensus_1": 3132795,
-        "USCensus_2": 3132795,
-        "USCensus_3": 3132795
-      }
-    },
-    "Uberlandia": {
-      "tables": {
-        "Uberlandia_1": 7559227
-      }
-    },
-    "Wins": {
-      "tables": {
-        "Wins_1": 556067,
-        "Wins_2": 519794,
-        "Wins_3": 519794,
-        "Wins_4": 519794
-      }
-    },
-    "Test": {
-      "tables": {
-        "Test_1": 20
-      }
-    },
-    "YaleLanguages": {
-      "tables": {
-        "YaleLanguages_1": 904873,
-        "YaleLanguages_2": 904873,
-        "YaleLanguages_3": 1393580,
-        "YaleLanguages_4": 1279378,
-        "YaleLanguages_5": 1279378
+        "Motos_1": 14107171,
+        "Motos_2": 14257190
       }
     }
   }

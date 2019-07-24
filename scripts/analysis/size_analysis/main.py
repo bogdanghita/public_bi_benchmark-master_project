@@ -16,7 +16,8 @@ SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 BENCHMARK_SRC_DIR = os.path.join(SCRIPT_DIR, "../../../benchmark")
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 
-FONT_SIZE_BAR = 8
+# FONT_SIZE_BAR = 8
+FONT_SIZE_BAR = 19
 FONT_SIZE_PIE = 14
 DEFAULT_COLORS = plt.rcParams['axes.prop_cycle'].by_key()['color']
 OUT_FILE_FORMAT = "pdf"
@@ -92,7 +93,7 @@ def plot_size(series, out_file, out_file_format,
 	if title is not None:
 		plt.title(title)
 
-	target_aspect_ratio = 0.3
+	target_aspect_ratio = 0.9
 	x_min, x_max = plt.gca().get_xlim()
 	y_min, y_max = plt.gca().get_ylim()
 	aspect_ratio = target_aspect_ratio / (float(y_max - y_min) / (x_max - x_min))
@@ -101,6 +102,7 @@ def plot_size(series, out_file, out_file_format,
 
 	plt.tight_layout()
 	plt.savefig(out_file, bbox_inches='tight', format=out_file_format)
+
 
 def plot_stats(stats, output_dir, out_file_format="svg"):
 	workbooks = stats["workbooks"]
@@ -114,20 +116,20 @@ def plot_stats(stats, output_dir, out_file_format="svg"):
 	x_label = "size (GiB)"
 	y_label = "count (tables)"
 	title = "Data size distribution"
-	num_bins = 26
+	num_bins = 20
 
 	out_file = os.path.join(output_dir, "size_vw.{}".format(out_file_format))
 	plot_size(vw_size_gb, out_file, out_file_format,
 			  x_label, y_label, num_bins,
-			  title=title,
-			  # color=DEFAULT_COLORS[2]
+			  # title=title,
+			  color=DEFAULT_COLORS[2]
 			  )
 	
 	out_file = os.path.join(output_dir, "size_csv.{}".format(out_file_format))
 	plot_size(csv_size_gb, out_file, out_file_format,
 			  x_label, y_label, num_bins,
-			  title=title,
-			  # color=DEFAULT_COLORS[2]
+			  # title=title,
+			  color=DEFAULT_COLORS[2]
 			  )
 
 
