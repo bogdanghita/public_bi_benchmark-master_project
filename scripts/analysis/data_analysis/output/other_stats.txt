@@ -1,0 +1,8 @@
+unique_chars_count=357, table=NYC_2, col_id=33
+unique_chars_count=357, table=NYC_1, col_id=33
+unique_chars_count=719, table=Romance_2, col_id=2
+unique_chars_count=302, table=Romance_2, col_id=9
+unique_chars_count=719, table=Romance_1, col_id=2
+unique_chars_count=302, table=Romance_1, col_id=9
+unique_chars_count=677, table=IGlocations2_2, col_id=1
+unique_chars_count=677, table=IGlocations2_1, col_id=1

@@ -159,9 +159,11 @@ def plot_stats(stats, output_dir, out_file_format="svg"):
 	datatypes_total_plot = Counter()
 	other_datatypes = []
 	for dt, c in datatypes_total.items():
-		if float(c) / count_total < others_threshold_ratio:
+		ratio = float(c) / count_total
+		if ratio < others_threshold_ratio:
 			datatypes_total_plot["other"] += c
 			other_datatypes.append(dt)
+			print("{}: percentage={}%".format(dt, ratio * 100))
 		else:
 			datatypes_total_plot[dt] += c
 	# other_label = "other\n(" + "\n".join(other_datatypes[:]) + ")"

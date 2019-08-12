@@ -1,0 +1,5 @@
+date: percentage=0.8676789587852495%
+timestamp: percentage=0.41139950632059247%
+boolean: percentage=0.1047198743361508%
+bigint: percentage=0.1795197845762585%
+time: percentage=0.0523599371680754%
