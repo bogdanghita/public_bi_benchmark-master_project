@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt
 WBS_DIR = "/scratch/bogdan/tableau-public-bench/data/PublicBIbenchmark-test"
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 BENCHMARK_SRC_DIR = os.path.join(SCRIPT_DIR, "../../../benchmark")
+BENCHMARK_SRC_DIR_cwida = "/scratch/bogdan/master-project/public_bi_benchmark/benchmark"
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 
 # FONT_SIZE_BAR = 8
@@ -26,6 +27,13 @@ OUT_FILE_FORMAT = "pdf"
 def to_gib(b):
 	return float(b) / 1024 / 1024 / 1024
 
+
+def sizeof_fmt_basic(num):
+	for unit in ['','K','M','G','T','P','E','Z']:
+		if abs(num) < 1000.0:
+			return "%.1f%s" % (num, unit)
+		num /= 1000.0
+	return "%.1f%s" % (num, 'Y')
 
 def sizeof_fmt(num, suffix='B'):
 	for unit in ['','Ki','Mi','Gi','Ti','Pi','Ei','Zi']:
@@ -133,14 +141,94 @@ def plot_stats(stats, output_dir, out_file_format="svg"):
 			  )
 
 
+def dump_thesis_stats(stats, output_dir):
+	workbooks = stats["workbooks"]
+
+	latex_out_file = os.path.join(output_dir, "latex.out")
+	with open(latex_out_file, "w") as lfp:
+
+		nb_tables_total = 0
+		nb_columns_total = 0
+		nb_queries_total = 0
+		nb_rows_total = 0
+		size_csv_total = 0
+
+		for wb, wb_data in sorted(workbooks.items(), key=lambda x: x[0]):
+			# name, #tables, #columns, #rows, #queries, size csv
+			name = wb
+			nb_tables = len(wb_data["tables"].keys())
+			nb_columns, nb_rows, csv_size = 0, 0, 0
+
+			src_wb_path = os.path.join(BENCHMARK_SRC_DIR, wb)
+			src_wb_path_cwida = os.path.join(BENCHMARK_SRC_DIR_cwida, wb)
+
+			for table, table_data in sorted(wb_data["tables"].items(), key=lambda x: x[0]):
+				csv_size += table_data["csv"]
+				
+				schema_file = os.path.join(src_wb_path, "tables", "{}.table.sql".format(table))
+				with open(schema_file, "r") as f:
+					lines = f.readlines()
+					nb_columns_t = len(lines) - 2
+				
+				linecount_file = os.path.join(src_wb_path, "samples", "{}.linecount".format(table))
+				with open(linecount_file, "r") as f:
+					nb_rows_t = int(f.read())
+
+				nb_columns += nb_columns_t
+				nb_rows += nb_rows_t
+
+				# print(wb, table, nb_columns, nb_rows, csv_size)
+
+			queries_dir = os.path.join(src_wb_path_cwida, "queries")
+			queries_list = [q for q in os.listdir(queries_dir) if os.path.isfile(os.path.join(queries_dir, q))]
+			nb_queries = len(queries_list)
+
+			nb_tables_total += nb_tables
+			nb_columns_total += nb_columns
+			nb_queries_total += nb_queries
+			nb_rows_total += nb_rows
+			size_csv_total += csv_size
+
+			latex_row = "{} & {} & {} & {} & {} & {} \\\\".format(name, 
+				  							  nb_tables, 
+				  							  nb_columns, 
+				  							  sizeof_fmt_basic(nb_rows), 
+				  							  nb_queries, 
+				  							  sizeof_fmt(csv_size))
+			lfp.write(latex_row + "\n")
+			# print(name, 
+			# 	  nb_tables, 
+			# 	  nb_columns, 
+			# 	  sizeof_fmt_basic(nb_rows), 
+			# 	  nb_queries, 
+			# 	  sizeof_fmt(csv_size)
+			# )
+
+		latex_row = '{} & {} & {} & {} & {} & {} \\\\'.format("Total", 
+										  nb_tables_total, 
+										  nb_columns_total, 
+										  sizeof_fmt_basic(nb_rows_total), 
+										  nb_queries_total, 
+										  sizeof_fmt(size_csv_total))
+		lfp.write(latex_row + "\n")
+		print("nb_tables_total={}, nb_columns_total={}, nb_queries_total={}, nb_rows_total={}, size_csv_total={}".format(
+				nb_tables_total, 
+				nb_columns_total, 
+				sizeof_fmt_basic(nb_rows_total), 
+				nb_queries_total, 
+				sizeof_fmt(size_csv_total))
+		)
+		print("nb_workbooks", len(workbooks.keys()))
+
+
 if __name__ == "__main__":
 
 	analysis_manager = AnalysisManager()
 
-	for d in os.listdir(BENCHMARK_SRC_DIR):
+	for d in os.listdir(BENCHMARK_SRC_DIR_cwida):
 		wb = d
 
-		src_wb_path = os.path.join(BENCHMARK_SRC_DIR, d, "samples")
+		src_wb_path = os.path.join(BENCHMARK_SRC_DIR_cwida, d, "samples")
 		if not os.path.isdir(src_wb_path):
 			print("error: unexpected file: {}".format(src_wb_path))
 			continue
@@ -148,11 +236,11 @@ if __name__ == "__main__":
 		for f in os.listdir(src_wb_path):
 			table = f.split(".")[0]
 
-			linecount_file = os.path.join(src_wb_path, f)
-			if not os.path.isfile(linecount_file):
-				print("error: unexpected directory: {}".format(linecount_file))
+			sample_file = os.path.join(src_wb_path, f)
+			if not os.path.isfile(sample_file):
+				print("error: unexpected directory: {}".format(sample_file))
 				continue
-			if not linecount_file.endswith(".linecount"):
+			if not sample_file.endswith(".sample.csv"):
 				continue
 
 			evaluation_file = os.path.join(WBS_DIR, "{}/{}.evaluation-nocompression/{}.eval-vectorwise.json".format(wb, table, table))
@@ -169,3 +257,4 @@ if __name__ == "__main__":
 	stats = analysis_manager.get_stats()
 	output_stats(stats, OUTPUT_DIR)
 	plot_stats(stats, OUTPUT_DIR, OUT_FILE_FORMAT)
+	dump_thesis_stats(stats, OUTPUT_DIR)
